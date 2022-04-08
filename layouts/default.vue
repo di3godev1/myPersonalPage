@@ -1,6 +1,6 @@
 <template>
     <div class="bg-blackDiego">
-        <HomeMenu></HomeMenu>
+        <HomeHeader></HomeHeader>
     </div>
 </template>
 

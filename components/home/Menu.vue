@@ -1,8 +1,9 @@
 <template>
-    <div class="fixed">
-        <div
-            class="w-screen h-screen bg-blackDiego bottom-0 z-50 transition-all duration-200"
-        >
+    <div
+        class="w-screen h-screen bg-blackDiego bottom-0 z-50 transition-all duration-200"
+        :class="isShown"
+    >
+        <div @click="closeMenu">
             <div>
                 <svg
                     width="318"
@@ -21,7 +22,10 @@
                     />
                 </svg>
             </div>
-            <div class="absolute bottom-10 right-3 z-10 h-auto">
+            <div
+                class="absolute bottom-10 right-3 z-10 h-auto"
+                :class="isClosed"
+            >
                 <a
                     href="item.link"
                     v-for="(item, index) in menu"
@@ -39,6 +43,7 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from "vuex";
 export default {
     data: () => ({
         menu: [
@@ -60,5 +65,11 @@ export default {
             },
         ],
     }),
+    computed: {
+        ...mapGetters("menu", ["showMenu"]),
+        isShown() {
+            return this.showMenu === false ? "right-full" : "right-0";
+        },
+    },
 };
 </script>

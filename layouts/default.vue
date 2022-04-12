@@ -2,6 +2,7 @@
     <div class="bg-blackDiego">
         <HomeHeader></HomeHeader>
         <HomeHero></HomeHero>
+        <HomeMenu></HomeMenu>
     </div>
 </template>
 

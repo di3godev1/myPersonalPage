@@ -75,8 +75,8 @@
                 class="w-16 h-28 border-2 rounded-full border-t-2 border-pinkDiego absolute bottom-0 left-64"
             ></div>
         </div>
-        <!-- <div class="w-full h-auto"> -->
-        <!-- <div class="w-44 h-28 flex flex-col justify-end items-end">
+        <div class="w-full h-auto">
+            <div class="w-44 h-28 flex flex-col justify-end items-end">
                 <div>
                     <p class="text-whiteDiego uppercase">front-</p>
                 </div>
@@ -87,10 +87,8 @@
                     <p class="text-whiteDiego uppercase">developer</p>
                 </div>
             </div>
-            <div class="w-44">
-                
-            </div> -->
-        <!-- </div> -->
+            <div class="w-44 h-52"></div>
+        </div>
     </div>
 </template>
 

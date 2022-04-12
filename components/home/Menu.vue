@@ -24,7 +24,7 @@
                 :class="isClosed"
             >
                 <a
-                    href="item.link"
+                    :href="item.link"
                     v-for="(item, index) in menu"
                     :key="index"
                     class="m-7 bottom-0"
@@ -66,6 +66,14 @@ export default {
         ...mapGetters("menu", ["showMenu"]),
         isShown() {
             return this.showMenu === false ? "right-full" : "right-0";
+        },
+        isClosed() {
+            return this.showMenu === true ? "right-0" : "right-full";
+        },
+    },
+    methods: {
+        closeMenu() {
+            console.log("me debo de cerrar");
         },
     },
 };

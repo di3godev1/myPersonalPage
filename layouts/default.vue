@@ -1,7 +1,7 @@
 <template>
     <div class="bg-blackDiego">
         <HomeHeader></HomeHeader>
-        <HomeHero></HomeHero>
+        <Nuxt />
         <HomeMenu></HomeMenu>
     </div>
 </template>

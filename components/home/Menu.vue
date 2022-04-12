@@ -1,7 +1,7 @@
 <template>
-    <div class="w-screen h-screen bg-blackDiego" :class="isShown">
+    <div class="w-screen h-screen bg-blackDiego fixed top-0" :class="isShown">
         <div @click="closeMenu">
-            <!-- <div>
+            <div>
                 <svg
                     width="318"
                     height="567"
@@ -18,7 +18,7 @@
                         fill="#071517"
                     />
                 </svg>
-            </div> -->
+            </div>
             <div
                 class="absolute bottom-10 right-3 z-10 h-auto"
                 :class="isClosed"

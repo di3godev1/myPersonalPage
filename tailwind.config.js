@@ -16,7 +16,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 principal: ["Tomorrow", ...defaultTheme.fontFamily.sans],
-                secondary: ["Helvok"],
+                secondary: ["Lekton"],
             },
         },
     },

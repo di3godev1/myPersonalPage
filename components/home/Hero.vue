@@ -105,6 +105,11 @@
                 />
             </div>
         </div>
+        <p
+            class="text-greyDiego font-secondary italic text-right relative right-1/4"
+        >
+            {{ h1Close }}
+        </p>
     </div>
 </template>
 
@@ -112,6 +117,7 @@
 export default {
     data: () => ({
         h1: "<h1>",
+        h1Close: "</h1>",
     }),
 };
 </script>

@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full h-auto">
+        <div class="w-full h-auto relative">
             <div class="w-44 h-28 flex flex-col justify-end items-end">
                 <div>
                     <p class="text-whiteDiego uppercase">front-</p>
@@ -95,7 +95,15 @@
                     <p class="text-whiteDiego uppercase">developer</p>
                 </div>
             </div>
-            <div class="w-44 h-52"></div>
+            <div
+                class="w-56 h-56 border-r-2 border-t-4 border-b-8 rounded-full border-pinkDiego -left-11 absolute top-16"
+            >
+                <img
+                    src="https://scontent.fgye1-2.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=CRYDW4TPPSMAX-SQJLt&_nc_ht=scontent.fgye1-2.fna&oh=00_AT8ypiUGV-lzGBq4E77FLYFpdb8KmL2z7DMWQHJuYiMxvQ&oe=625B77A2"
+                    alt="fotito"
+                    class="w-56 h-56 rounded-full object-cover border-b-4 border-b-pinkDiego"
+                />
+            </div>
         </div>
     </div>
 </template>

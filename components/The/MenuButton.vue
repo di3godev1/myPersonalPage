@@ -1,6 +1,6 @@
 <template>
     <div class="text-whiteDiego flex">
-        <button class="pr-5" @click="getMenu">.menu()</button>
+        <button class="pr-5 font-secondary" @click="getMenu">.menu()</button>
     </div>
 </template>
 

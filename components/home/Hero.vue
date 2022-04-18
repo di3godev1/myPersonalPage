@@ -1,6 +1,6 @@
 <template>
-    <div class="relative top-6">
-        <div class="w-full h-20">
+    <div class="relative top-6 overflow-x-hidden">
+        <div class="w-full h-20 top-6 relative">
             <div class="w-1/12 left-5 relative">
                 <p class="text-xs font-secondary text-greyDiego">
                     {{ h1 }}
@@ -15,8 +15,8 @@
                 </div>
             </div>
         </div>
-        <div class="w-full h-auto flex flex-row justify-start">
-            <div class="left-5 relative w-3/4">
+        <div class="w-full h-9 flex flex-row justify-start">
+            <div class="left-6 relative w-3/4 top-6">
                 <svg
                     width="218"
                     height="22"
@@ -78,8 +78,8 @@
                     />
                 </svg>
             </div>
-            <div class="relative w-full bg-blackDiego">
-                <div class="w-36 h-36 bg-pinkDiego rounded-full fixed top-14">
+            <div class="relative w-full bg-blackDiego -top-20">
+                <div class="w-36 h-36 bg-pinkDiego rounded-full sticky">
                     <img
                         src="https://scontent.fgye4-1.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=sHpNpAzHlUcAX-eWAlR&_nc_ht=scontent.fgye4-1.fna&oh=00_AT-BfKg_t3xvI0i8VIYqDcMOtuaT9JcLgZCpcxXHBjYXMw&oe=62616662"
                         alt=""
@@ -106,11 +106,16 @@
                 <p class="uppercase text-whiteDiego relative left-full top-1">
                     developer
                 </p>
+                <div class="flex justify-end left-full relative top-1">
+                    <p class="text-greyDiego justify-end">
+                        {{ closedH1 }}
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="w-56 h-56 relative -top-16">
+        <div class="w-56 h-56 relative -top-20 -left-7">
             <div
-                class="w-56 h-56 rounded-full border-8 border-pinkDiego fixed -left-7"
+                class="w-56 h-56 rounded-full border-8 border-pinkDiego sticky"
             >
                 <img
                     src="https://scontent.fgye4-1.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=sHpNpAzHlUcAX-eWAlR&_nc_ht=scontent.fgye4-1.fna&oh=00_AT-BfKg_t3xvI0i8VIYqDcMOtuaT9JcLgZCpcxXHBjYXMw&oe=62616662"
@@ -127,6 +132,7 @@
 export default {
     data: () => ({
         h1: "<h1>",
+        closedH1: "</h1>",
     }),
 };
 </script>

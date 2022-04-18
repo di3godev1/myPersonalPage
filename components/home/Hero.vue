@@ -1,33 +1,39 @@
 <template>
-    <div class="w-full max-w-screen-xl mx-auto overflow-x-hidden">
+    <div class="w-full max-w-7xl mx-auto overflow-x-hidden">
         <div class="w-full flex flex-col justify-center items-center">
             <!-- FIRST SECTION -->
             <div class="w-full flex justify-center items-center">
                 <!-- NAME SECTION -->
-                <div class="w-3/4">
+                <div class="w-3/4 flex justify-center">
                     <div class="w-full flex justify-center items-center">
-                        <div class="w-full h-20 top-6 relative">
-                            <div class="w-1/12 left-5 relative">
+                        <div class="w-full">
+                            <div class="">
                                 <p
                                     class="text-xs font-secondary text-greyDiego"
                                 >
                                     {{ h1 }}
                                 </p>
                             </div>
-                            <div class="w-4/5">
-                                <div class="left-8 relative">
-                                    <p class="uppercase text-whiteDiego">
+                            <div class="">
+                                <div class="">
+                                    <p
+                                        class="uppercase text-whiteDiego lg:text-5xl"
+                                    >
                                         hello
                                     </p>
                                 </div>
-                                <div class="left-8 relative">
+                                <div class="">
                                     <p class="uppercase text-whiteDiego">I'm</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full h-9 flex flex-row justify-start">
-                            <div class="left-6 relative w-3/4 top-6">
-                                <my-name />
+                        <div class="w-full flex flex-row justify-start">
+                            <div class="relative w-3/4">
+                                <my-name class="flex sm:hidden" />
+                                <my-name-tablet
+                                    class="hidden sm:flex lg:hidden"
+                                />
+                                <my-name-desktop class="hidden lg:flex" />
                             </div>
                         </div>
                     </div>
@@ -110,9 +116,13 @@
 
 <script>
 import MyName from "../home/MyName.vue";
+import MyNameDesktop from "../home/MyNameDesktop.vue";
+import MyNameTablet from "../home/MyNameTablet.vue";
 export default {
     components: {
         MyName,
+        MyNameDesktop,
+        MyNameTablet,
     },
     data: () => ({
         openTitle: "<h1>",

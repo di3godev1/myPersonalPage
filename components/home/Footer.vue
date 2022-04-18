@@ -1,5 +1,7 @@
 <template>
-    <footer class="w-full h-40 flex justify-between flex-col items-center">
+    <footer
+        class="w-full h-40 flex justify-between flex-col items-center max-w-screen-2xl"
+    >
         <div class="w-4/5 h-14 mt-7">
             <div class="w-full h-14 flex flex-wrap justify-between">
                 <div
@@ -18,8 +20,20 @@
             </div>
         </div>
         <div class="w-full h-10 border-2 border-pinkDiego">
-            <div class="">
-                <p>Ecuador</p>
+            <div class="w-20 h-4 flex flex-row">
+                <div
+                    v-for="(item, index) in items"
+                    :key="index"
+                    class="w-1/5 h-4 top-12 mr-2"
+                >
+                    <icons
+                        :name="item.name"
+                        class="w-full h-4 text-whiteDiego"
+                    ></icons>
+                </div>
+                <div class="w-4/5 h-4">
+                    <p class="text-whiteDiego text-sm">Ecuador</p>
+                </div>
             </div>
         </div>
     </footer>
@@ -32,6 +46,11 @@ export default {
         icons,
     },
     data: () => ({
+        items: [
+            {
+                name: "web",
+            },
+        ],
         icons: [
             {
                 name: "instagram",

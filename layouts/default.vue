@@ -3,7 +3,7 @@
         <HomeHeader></HomeHeader>
         <Nuxt />
         <HomeMenu></HomeMenu>
-        <HomeFooter></HomeFooter>
+        <!-- <HomeFooter></HomeFooter> -->
     </div>
 </template>
 

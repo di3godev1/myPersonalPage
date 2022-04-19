@@ -5,16 +5,20 @@
             <div class="w-full flex justify-center items-center">
                 <!-- NAME SECTION -->
                 <div class="w-3/4 flex justify-center">
-                    <div class="w-full flex justify-center items-center">
-                        <div class="w-full">
-                            <div class="">
+                    <div
+                        class="w-full flex flex-col justify-center items-center"
+                    >
+                        <div
+                            class="w-full flex flex-col justify-center items-start"
+                        >
+                            <div class="w-full">
                                 <p
                                     class="text-xs font-secondary text-greyDiego"
                                 >
                                     {{ h1 }}
                                 </p>
                             </div>
-                            <div class="">
+                            <div class="w-full">
                                 <div class="">
                                     <p
                                         class="uppercase text-whiteDiego lg:text-5xl"
@@ -43,7 +47,7 @@
                     <div class="w-full flex justify-center items-center">
                         <div class="relative w-full bg-blackDiego">
                             <div
-                                class="w-36 h-36 bg-pinkDiego rounded-full absolute top-0 right-0"
+                                class="w-36 h-36 bg-pinkDiego rounded-full absolute top-0 -right-9"
                             >
                                 <img
                                     src="https://scontent.fgye4-1.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=sHpNpAzHlUcAX-eWAlR&_nc_ht=scontent.fgye4-1.fna&oh=00_AT-BfKg_t3xvI0i8VIYqDcMOtuaT9JcLgZCpcxXHBjYXMw&oe=62616662"
@@ -99,7 +103,7 @@
                 </div>
                 <div class="w-full h-auto relative -top-80 -left-7">
                     <div
-                        class="w-56 h-56 rounded-full border-8 border-pinkDiego sticky"
+                        class="w-56 h-56 rounded-full border-8 border-pinkDiego absolute -left-8"
                     >
                         <img
                             src="https://scontent.fgye4-1.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=sHpNpAzHlUcAX-eWAlR&_nc_ht=scontent.fgye4-1.fna&oh=00_AT-BfKg_t3xvI0i8VIYqDcMOtuaT9JcLgZCpcxXHBjYXMw&oe=62616662"

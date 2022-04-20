@@ -3,7 +3,9 @@
         <figure class="mx-0 my-auto pl-5">
             <img src="~/static/images/frame62.png" alt="Logo" />
         </figure>
+        <!-- MENUBUTTON TO MOBILE VIEWS -->
         <TheMenuButton class="lg:hidden"></TheMenuButton>
+        <!-- HEADER OF THE DESKTOP VIEW -->
         <div class="lg:flex hidden">
             <div class="w-full">
                 <div class="justify-between flex flex-row">

@@ -1,3 +1,5 @@
 <template>
-    <section id="workSection"></section>
+    <section id="workSection">
+        <div></div>
+    </section>
 </template>

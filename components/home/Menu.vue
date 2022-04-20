@@ -24,7 +24,7 @@
                 :class="isClosed"
             >
                 <a
-                    :href="item.link"
+                    :href="item.section"
                     v-for="(item, index) in menu"
                     :key="index"
                     class="m-7 bottom-0"
@@ -46,19 +46,19 @@ export default {
         menu: [
             {
                 name: "about",
-                link: "#aboutSection",
+                section: "#aboutSection",
             },
             {
                 name: "work",
-                link: "#workSection",
+                section: "#workSection",
             },
             {
                 name: "skills",
-                link: "#skillsSection",
+                section: "#skillsSection",
             },
             {
                 name: "say_hi",
-                link: "#say_hiSection",
+                section: "#say_hiSection",
             },
         ],
     }),

@@ -48,7 +48,7 @@
                     <div class="w-full flex justify-center items-center">
                         <div class="relative w-full bg-blackDiego lg:-top-20">
                             <div
-                                class="w-36 h-36 bg-pinkDiego rounded-full absolute -top-6 -right-9 lg:w-96 lg:h-96"
+                                class="w-36 h-36 bg-pinkDiego rounded-full absolute -top-6 -right-11 lg:w-96 lg:h-96"
                             >
                                 <img
                                     src="https://scontent.fgye4-1.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=sHpNpAzHlUcAX-eWAlR&_nc_ht=scontent.fgye4-1.fna&oh=00_AT-BfKg_t3xvI0i8VIYqDcMOtuaT9JcLgZCpcxXHBjYXMw&oe=62616662"
@@ -64,7 +64,7 @@
         </div>
 
         <div>
-            <div class="relative top-6 overflow-x-hidden">
+            <div class="relative top-6">
                 <div class="w-full flex justify-center flex-col">
                     <div
                         class="flex flex-col justify-center items-center h-28 w-1/3 my-0 mx-auto"
@@ -80,7 +80,7 @@
                             <p
                                 class="text-2xl uppercase text-whiteDiego text-right"
                             >
-                                end
+                                tend
                             </p>
                         </div>
                     </div>
@@ -102,13 +102,15 @@
                 <!-- DESCRIPTION SECTION -->
                 <div class="w-full h-52 flex justify-end">
                     <div class="w-1/3 h-52">
-                        <p class="text-whiteDiego">
-                            Soy Diego Reyes, frontend developer
+                        <p class="text-whiteDiego text-xs">
+                            Soy Diego Reyes, frontend developer, un joven
+                            estusiasmado por la tecnología y lo que esta puede
+                            darnos como usuarios.
                         </p>
                     </div>
                 </div>
                 <!-- SECOND IMAGE SECTION -->
-                <div class="w-full relative -top-80 -left-7">
+                <div class="w-full relative -top-80 -left-11">
                     <div
                         class="w-56 h-56 rounded-full border-8 border-pinkDiego absolute -left-8"
                     >

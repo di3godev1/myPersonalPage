@@ -1,3 +1,3 @@
 <template>
-    <section id="skillsSection">Soy la seccion de skills</section>
+    <section id="skillsSection"></section>
 </template>

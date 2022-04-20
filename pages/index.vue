@@ -1,6 +1,7 @@
 <template>
     <div>
-        <HomeHero></HomeHero>
+        <HomeHero />
+        <HomeWork />
     </div>
 </template>
 

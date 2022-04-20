@@ -1,3 +1,3 @@
 <template>
-    <section id="workSection">Soy la seccion de works</section>
+    <section id="workSection"></section>
 </template>

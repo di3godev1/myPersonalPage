@@ -128,9 +128,9 @@
 </template>
 
 <script>
-import MyName from "../home/MyName.vue";
-import MyNameDesktop from "../home/MyNameDesktop.vue";
-import MyNameTablet from "../home/MyNameTablet.vue";
+import MyName from "../global/MyName.vue";
+import MyNameDesktop from "../global/MyNameDesktop.vue";
+import MyNameTablet from "../global/MyNameTablet.vue";
 export default {
     components: {
         MyName,

@@ -102,7 +102,7 @@
                 <!-- DESCRIPTION SECTION -->
                 <div class="w-full h-52 flex justify-end">
                     <div class="w-1/3 h-52">
-                        <p class="text-whiteDiego text-xs">
+                        <p class="text-whiteDiego text-xs lg:text-2xl">
                             Soy Diego Reyes, frontend developer, un joven
                             estusiasmado por la tecnología y lo que esta puede
                             darnos como usuarios.

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex">
+    <div class="w-full flex hsfdha">
         <div class="w-3/4 flex flex-row flex-wrap">
             <div class="w-3/4">
                 <h3 class="text-2xl lg:text-4xl">{{ name }}</h3>

@@ -23,23 +23,6 @@
                 </TheWorks>
             </a>
         </div>
-        <!-- <div class="w-full pt-12 pl-8 sm:pl-36 lg:pl-52">
-            <div class="">
-                <h2 class="uppercase text-whiteDiego text-2xl lg:text-4xl">
-                    maverick
-                </h2>
-            </div>
-            <div class="">
-                <p class="text-greyDiego text-xs sm:text-lg lg:text-lg">
-                    {{ DateOfTheWorks }}
-                </p>
-            </div>
-            <div>
-                <h3>
-                    {{ Work1 }}
-                </h3>
-            </div>
-        </div> -->
     </section>
 </template>
 

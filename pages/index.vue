@@ -2,6 +2,7 @@
     <div>
         <HomeHero />
         <HomeWork />
+        <HomeSkills />
     </div>
 </template>
 

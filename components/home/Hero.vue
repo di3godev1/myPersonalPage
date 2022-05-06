@@ -48,13 +48,13 @@
                     <div class="w-full flex justify-center items-center">
                         <div class="relative w-full bg-blackDiego lg:-top-20">
                             <div
-                                class="w-36 h-36 bg-pinkDiego rounded-full absolute -top-6 -right-11 lg:w-96 lg:h-96"
+                                class="w-36 h-36 bg-pinkDiego rounded-full absolute -top-6 -right-11 lg:w-96 lg:h-96 sm:w-56 sm:h-56"
                             >
                                 <img
                                     src="https://scontent.fgye1-2.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=psQ_vFbI578AX8yYAHR&_nc_ht=scontent.fgye1-2.fna&oh=00_AT_VqgJg6IXqqEWrhj7U3LVLPGM0IU15E-EjCWzVjIf3dA&oe=627B1BA2"
                                     alt=""
                                     srcset=""
-                                    class="object-cover rounded-full w-36 h-36 border-t-2 border-l-4 border-b-8 border-pinkDiego lg:w-96 lg:h-96"
+                                    class="object-cover rounded-full w-36 h-36 border-t-2 border-l-4 border-b-8 border-pinkDiego lg:w-96 lg:h-96 sm:w-56 sm:h-56"
                                 />
                             </div>
                         </div>

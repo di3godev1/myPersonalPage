@@ -51,7 +51,7 @@
                                 class="w-36 h-36 bg-pinkDiego rounded-full absolute -top-6 -right-11 lg:w-96 lg:h-96"
                             >
                                 <img
-                                    src="https://scontent.fgye4-1.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=sHpNpAzHlUcAX-eWAlR&_nc_ht=scontent.fgye4-1.fna&oh=00_AT-BfKg_t3xvI0i8VIYqDcMOtuaT9JcLgZCpcxXHBjYXMw&oe=62616662"
+                                    src="https://scontent.fgye1-2.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=psQ_vFbI578AX8yYAHR&_nc_ht=scontent.fgye1-2.fna&oh=00_AT_VqgJg6IXqqEWrhj7U3LVLPGM0IU15E-EjCWzVjIf3dA&oe=627B1BA2"
                                     alt=""
                                     srcset=""
                                     class="object-cover rounded-full w-36 h-36 border-t-2 border-l-4 border-b-8 border-pinkDiego lg:w-96 lg:h-96"
@@ -80,7 +80,7 @@
                             <p
                                 class="text-2xl uppercase text-whiteDiego text-right"
                             >
-                                tend
+                                end
                             </p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                         class="w-56 h-56 rounded-full border-8 border-pinkDiego absolute -left-8"
                     >
                         <img
-                            src="https://scontent.fgye4-1.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=sHpNpAzHlUcAX-eWAlR&_nc_ht=scontent.fgye4-1.fna&oh=00_AT-BfKg_t3xvI0i8VIYqDcMOtuaT9JcLgZCpcxXHBjYXMw&oe=62616662"
+                            src="https://scontent.fgye1-2.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=psQ_vFbI578AX8yYAHR&_nc_ht=scontent.fgye1-2.fna&oh=00_AT_VqgJg6IXqqEWrhj7U3LVLPGM0IU15E-EjCWzVjIf3dA&oe=627B1BA2"
                             alt=""
                             srcset=""
                             class="object-cover rounded-full w-56 h-56 border-t-2 border-r-4 border-b-8 border-pinkDiego"

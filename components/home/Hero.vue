@@ -77,14 +77,14 @@
                     <div
                         class="flex flex-col justify-center items-center h-28 w-1/3 my-0 mx-auto"
                     >
-                        <div class="relative w-full">
+                        <div class="relative w-full right-5">
                             <p
                                 class="text-2xl uppercase text-whiteDiego text-right sm:text-5xl"
                             >
                                 front-
                             </p>
                         </div>
-                        <div class="relative w-full">
+                        <div class="relative w-full right-5">
                             <p
                                 class="text-2xl sm:text-5xl uppercase text-whiteDiego text-right"
                             >
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div
-                        class="bg-blackDiego relative w-1/3 -top-9 right-8 my-0 mx-auto sm:mt-6 mt-2"
+                        class="bg-blackDiego relative w-1/3 -top-9 right-16 my-0 mx-auto sm:mt-6 mt-2"
                     >
                         <p
                             class="text-2xl uppercase text-whiteDiego relative left-full top-1 sm:text-5xl"
@@ -122,7 +122,7 @@
                 <!-- SECOND IMAGE SECTION -->
                 <div class="w-full relative -top-80 -left-11">
                     <div
-                        class="w-56 h-56 rounded-full border-8 border-pinkDiego absolute -left-8 width-tablet"
+                        class="w-56 h-56 rounded-full absolute -left-8 width-tablet"
                     >
                         <img
                             src="https://scontent.fgye1-2.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=psQ_vFbI578AX8yYAHR&_nc_ht=scontent.fgye1-2.fna&oh=00_AT_VqgJg6IXqqEWrhj7U3LVLPGM0IU15E-EjCWzVjIf3dA&oe=627B1BA2"

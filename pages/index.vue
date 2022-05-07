@@ -1,8 +1,8 @@
 <template>
     <div>
         <HomeHero />
-        <HomeWork />
-        <HomeSkills />
+        <!-- <HomeWork />
+        <HomeSkills /> -->
     </div>
 </template>
 

@@ -27,7 +27,7 @@
                                     </p>
                                 </div>
                                 <div
-                                    class="relative left-7 lg:left-32 sm:left-24"
+                                    class="relative left-7 lg:left-20 sm:left-24"
                                 >
                                     <p
                                         class="uppercase text-whiteDiego sm:text-5xl lg:text-7xl"
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <!-- SECOND IMAGE SECTION -->
-                <div class="w-full relative -top-80 -left-11">
+                <div class="w-full relative -top-96 -left-11">
                     <div
                         class="w-56 h-56 rounded-full absolute -left-8 width-tablet width-desktop"
                     >

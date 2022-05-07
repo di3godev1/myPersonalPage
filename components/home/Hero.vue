@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <!-- SECOND IMAGE SECTION -->
-                <div class="w-full relative -top-96 -left-11">
+                <div class="w-full relative md:-top-96 -top-80 -left-11">
                     <div
                         class="w-56 h-56 rounded-full absolute -left-8 width-tablet width-desktop"
                     >

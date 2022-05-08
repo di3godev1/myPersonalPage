@@ -17,6 +17,9 @@
                 </div>
             </div>
         </div>
-        <div></div>
+        <!-- DETAILS SKILLS SECTION   -->
+        <div class="mt-16 w-full flex justify-center">
+            <div class="w-44 h-44 rounded-full border-pinkDiego border-2"></div>
+        </div>
     </section>
 </template>

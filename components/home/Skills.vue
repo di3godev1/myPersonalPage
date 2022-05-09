@@ -1,5 +1,5 @@
 <template>
-    <section id="skillsSection " class="pt-28">
+    <section id="skillsSection " class="pt-28 max-w-screen-2xl">
         <!-- SVG SECTION -->
         <div class="w-full">
             <div class="flex justify-center">
@@ -18,18 +18,38 @@
             </div>
         </div>
         <!-- DETAILS SKILLS SECTION   -->
-        <div class="mt-16 w-full flex justify-center">
+        <div class="mt-16 w-full mx-auto flex justify-center relative">
+            <!-- LETTERS BACKGROUND -->
+            <div class="w-full absolute top-0 left-0 z-10">
+                <p
+                    class="uppercase w-full text-7xl whitespace-nowrap absolute top-0 left-0 text-whiteDiego overflow-hidden"
+                >
+                    vue-html-css-nuxt-tailwindcss-javascript
+                </p>
+            </div>
+            <!-- CIRCLE -->
             <div
-                class="w-44 h-44 rounded-full border-pinkDiego border-2 border-l-8 border-y-2 border-r md:w-96 md:h-96 size-desktop"
-            ></div>
+                class="w-40 h-40 md:h-96 lg:h-96 border-l-8 border-y-4 relative z-0 border-r-2 border-pinkDiego rounded-full md:w-1/2 size-desktop"
+            />
+            <!-- IMAGE -->
+            <div
+                class="w-1/2 h-40 md:h-96 size-desktop absolute top-2 left-1/4 right-0 z-20 rounded-full"
+            >
+                <img
+                    src="~/static/images/ImagesAboutMe/elbichosiu.png"
+                    class="absolute top-0 left-0 right-0 w-full object-cover object-center mask"
+                />
+            </div>
         </div>
     </section>
 </template>
 
 <style scoped>
+.mask {
+    clip-path: circle(50% at 50% 50%);
+}
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
     .size-desktop {
-        width: 520px;
         height: 520px;
     }
 }

@@ -20,7 +20,7 @@
         <!-- DETAILS SKILLS SECTION   -->
         <div class="mt-16 w-full mx-auto flex justify-center relative">
             <!-- LETTERS BACKGROUND -->
-            <div class="w-full absolute top-0 left-0 z-10">
+            <div class="w-full absolute top-6 md:top-1/3 left-0 z-10">
                 <p
                     class="uppercase w-full text-7xl whitespace-nowrap absolute top-0 left-0 text-whiteDiego overflow-hidden"
                 >
@@ -33,11 +33,11 @@
             />
             <!-- IMAGE -->
             <div
-                class="w-1/2 h-40 md:h-96 size-desktop absolute top-2 left-1/4 right-0 z-20 rounded-full"
+                class="w-1/2 h-40 md:h-96 size-desktop absolute top-0 md:top left-1/4 right-0 z-20 rounded-full"
             >
                 <img
                     src="~/static/images/ImagesAboutMe/elbichosiu.png"
-                    class="absolute top-0 left-0 right-0 w-full object-cover object-center mask"
+                    class="h-40 md:h-96 absolute top-0 left-0 right-0 w-full object-cover object-center mask size-desktop"
                 />
             </div>
         </div>

@@ -2,9 +2,26 @@
     <section id="workSection " class="max-w-screen-2xl md:mt-36 lg:mt-52">
         <div class="w-full">
             <!-- SVG SECTION -->
-            <my-work class="flex sm:hidden pl-5" />
+            <!-- <my-work class="flex sm:hidden pl-5" />
             <my-work-desktop class="hidden lg:flex lg:pl-36" />
-            <my-work-tablet class="hidden sm:flex lg:hidden sm:pl-10" />
+            <my-work-tablet class="hidden sm:flex lg:hidden sm:pl-10" /> -->
+            <!-- SVG SECTION -->
+            <div class="w-full">
+                <div class="flex justify-center">
+                    <!-- SVG TO MOBILE -->
+                    <div>
+                        <my-work class="flex sm:hidden" />
+                    </div>
+                    <!-- SVG TO DESKTOP -->
+                    <div>
+                        <my-work-desktop class="hidden lg:flex" />
+                    </div>
+                    <!-- SVG TO TABLET -->
+                    <div>
+                        <my-work-tablet class="hidden sm:flex lg:hidden" />
+                    </div>
+                </div>
+            </div>
             <!-- WORK'S NAMES SECTION -->
         </div>
         <div

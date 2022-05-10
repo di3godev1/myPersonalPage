@@ -3,6 +3,7 @@
         <HomeHero />
         <HomeWork />
         <HomeSkills />
+        <HomeSayHi />
     </div>
 </template>
 

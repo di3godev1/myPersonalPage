@@ -20,7 +20,17 @@
                 class="rounded-full w-64 h-64 border-l-8 border-r-2 border-t-4 border-b-4 border-pinkDiego md:w-96 md:h-96 relative -top-4 lg:left-12 lg:-top-10 md:-top-6"
             >
                 <HomeCardForm />
+                <Media />
             </div>
         </div>
     </section>
 </template>
+
+<script>
+import Media from "../home/Social/Media.vue";
+export default {
+    components: {
+        Media,
+    },
+};
+</script>

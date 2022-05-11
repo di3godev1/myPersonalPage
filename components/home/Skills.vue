@@ -42,6 +42,9 @@
                 />
             </div>
         </div>
+        <div class="w-full">
+            <homeSocialMedia />
+        </div>
     </section>
 </template>
 

@@ -21,18 +21,6 @@
             >
                 <HomeCardForm />
             </div>
-            <div class="w-full">
-                <SocialMedia />
-            </div>
         </div>
     </section>
 </template>
-
-<script>
-import SocialMedia from "../The/SocialMedia";
-export default {
-    components: {
-        SocialMedia,
-    },
-};
-</script>

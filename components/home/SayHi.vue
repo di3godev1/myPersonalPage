@@ -17,22 +17,9 @@
                 </div>
             </div>
             <div
-                class="rounded-full justify-center flex-col w-56 h-56 border-l-8 border-r-2 border-t-4 border-b-4 border-pinkDiego md:w-96 md:h-96 relative -top-4 lg:left-12 lg:-top-10 flex"
+                class="rounded-full w-64 h-64 border-l-8 border-r-2 border-t-4 border-b-4 border-pinkDiego md:w-96 md:h-96 relative -top-4 lg:left-12 lg:-top-10 md:-top-6"
             >
-                <div class="flex flex-row justify-center mb-4">
-                    <label class="text-base text-whiteDiego"> Name: </label>
-                    <input
-                        type="text"
-                        class="border-2 border-pinkDiego w-1/2 bg-blackDiego rounded-xl"
-                    />
-                </div>
-                <div class="flex flex-row justify-center">
-                    <label class="text-base text-whiteDiego"> Email: </label>
-                    <input
-                        type="text"
-                        class="border-2 border-pinkDiego w-1/2 bg-blackDiego rounded-xl"
-                    />
-                </div>
+                <HomeCardForm />
             </div>
         </div>
     </section>

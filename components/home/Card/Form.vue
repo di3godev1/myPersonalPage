@@ -1,7 +1,7 @@
 <template>
     <div class="w-full flex justify-center items-center">
-        <div class="flex flex-col relative top-7 left-4 md:top-12">
-            <div class="relative left-5">
+        <div class="flex flex-col relative top-7 left-4 md:top-20">
+            <div class="relative left-5 md:left-0">
                 <label for="name" class="text-whiteDiego text-3xl">
                     name:
                 </label>

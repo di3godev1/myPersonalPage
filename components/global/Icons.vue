@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import icons from "~/helpers/icon";
+import icons from "../../helpers/icon";
 export default {
     props: {
         name: {

@@ -1,8 +1,10 @@
 <template>
     <div class="w-full flex justify-center items-center">
-        <div class="flex flex-col relative top-7 left-4">
+        <div class="flex flex-col relative top-7 left-4 md:top-12">
             <div class="relative left-5">
-                <label for="name" class="text-whiteDiego"> name: </label>
+                <label for="name" class="text-whiteDiego text-3xl">
+                    name:
+                </label>
                 <input
                     type="text"
                     placeholder="insert text"
@@ -11,7 +13,9 @@
                 />
             </div>
             <div class="">
-                <label for="email" class="text-whiteDiego"> email: </label>
+                <label for="email" class="text-whiteDiego text-3xl">
+                    email:
+                </label>
                 <input
                     type="text"
                     placeholder="insert text"

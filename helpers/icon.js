@@ -4,6 +4,7 @@ import {
     mdiInstagram,
     mdiTwitter,
     mdiWeb,
+    mdiCopyright,
 } from "@mdi/js";
 
 export default {
@@ -12,4 +13,5 @@ export default {
     github: mdiGithub,
     instagram: mdiInstagram,
     web: mdiWeb,
+    copyright: mdiCopyright,
 };

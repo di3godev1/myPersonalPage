@@ -1,7 +1,9 @@
 <template>
     <section id="say_hiSection" class="mt-20 bg-blackDiego">
         <!-- SVG SECTION -->
-        <div class="w-4/5 flex flex-col mx-auto max-w-7xl flex-wrap">
+        <div
+            class="w-4/5 flex flex-col mx-auto max-w-7xl flex-wrap justify-center items-center"
+        >
             <div class="flex justify-end pb-2 md:mr-10 lg:mr-1">
                 <!-- SVG TO MOBILE -->
                 <div>

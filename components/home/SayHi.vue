@@ -4,7 +4,9 @@
         <div
             class="w-4/5 flex flex-col mx-auto max-w-7xl flex-wrap justify-center items-center"
         >
-            <div class="flex justify-end pb-2 md:mr-10 lg:mr-1">
+            <div
+                class="flex justify-end pb-2 md:mr-10 lg:mr-1 relative md:left-44 left-16"
+            >
                 <!-- SVG TO MOBILE -->
                 <div>
                     <my-say-hi class="flex sm:hidden" />
@@ -19,7 +21,7 @@
                 </div>
             </div>
             <div
-                class="rounded-full w-64 h-64 border-l-8 border-r-2 border-t-4 border-b-4 border-pinkDiego md:w-96 md:h-96 relative -top-4 lg:left-12 lg:-top-10 md:-top-6"
+                class="rounded-full w-64 h-64 border-l-8 border-r-2 border-t-4 border-b-4 border-pinkDiego md:w-96 md:h-96 relative -top-4 lg:left-12 lg:-top-6 md:-top-6"
             >
                 <HomeCardForm />
             </div>

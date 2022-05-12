@@ -1,6 +1,8 @@
 <template>
     <div class="w-full">
-        <div class="w-full flex flex-wrap justify-between mx-auto">
+        <div
+            class="w-full flex flex-wrap justify-between mx-auto md:relative md:left-3/4"
+        >
             <div
                 v-for="(icon, index) in icons"
                 :key="index"

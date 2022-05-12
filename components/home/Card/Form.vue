@@ -27,7 +27,7 @@
                 <textarea
                     type="text"
                     placeholder="insert text"
-                    class="mx-2 text-center text-whiteDiego w-5/6 md:h-16 bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary"
+                    class="md:w-4/5 mx-2 text-center text-whiteDiego w-5/6 md:h-16 bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary"
                 />
             </div>
             <div class="w-full mt-3">

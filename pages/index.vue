@@ -4,6 +4,7 @@
         <HomeWork />
         <HomeSkills />
         <HomeSayHi />
+        <HomeFooter />
     </div>
 </template>
 

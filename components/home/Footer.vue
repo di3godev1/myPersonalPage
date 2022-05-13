@@ -1,8 +1,12 @@
 <template>
     <footer class="w-full h-12 mt-5">
-        <div>
-            <div></div>
-            <div></div>
+        <div class="flex flex-wrap items-center">
+            <div class="mr-2">
+                <Icons class="w-3 h-3 text-whiteDiego" :name="web"></Icons>
+            </div>
+            <div>
+                <p class="text-sm text-whiteDiego">Ecuador</p>
+            </div>
         </div>
         <div class="flex flex-wrap items-center">
             <div class="mr-2">

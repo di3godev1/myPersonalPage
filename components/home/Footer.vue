@@ -10,7 +10,7 @@
         </div>
         <div class="flex flex-wrap items-center">
             <div class="mr-2">
-                <P class="text-whiteDiego">Diego Reyes</P>
+                <P class="text-whiteDiego text-sm">Diego Reyes</P>
             </div>
             <Icons class="w-3 h-3 mr-2 text-whiteDiego" :name="copy"></Icons>
             <div>

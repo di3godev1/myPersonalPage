@@ -1,20 +1,25 @@
 <template>
-    <footer class="w-full h-12 mt-5">
-        <div class="flex flex-wrap items-center">
-            <div class="mr-2">
-                <Icons class="w-3 h-3 text-whiteDiego" :name="web"></Icons>
+    <footer class="w-full h-12 mt-5 flex justify-center items-center">
+        <div class="w-4/5 flex justify-between items-center">
+            <div class="flex flex-wrap items-center">
+                <div class="mr-2">
+                    <Icons class="w-3 h-3 text-whiteDiego" :name="web"></Icons>
+                </div>
+                <div>
+                    <p class="text-sm text-whiteDiego">Ecuador</p>
+                </div>
             </div>
-            <div>
-                <p class="text-sm text-whiteDiego">Ecuador</p>
-            </div>
-        </div>
-        <div class="flex flex-wrap items-center">
-            <div class="mr-2">
-                <P class="text-whiteDiego text-sm">Diego Reyes</P>
-            </div>
-            <Icons class="w-3 h-3 mr-2 text-whiteDiego" :name="copy"></Icons>
-            <div>
-                <p class="text-whiteDiego">2022</p>
+            <div class="flex flex-wrap items-center">
+                <div class="mr-2">
+                    <P class="text-whiteDiego text-sm">Diego Reyes</P>
+                </div>
+                <Icons
+                    class="w-3 h-3 mr-2 text-whiteDiego"
+                    :name="copy"
+                ></Icons>
+                <div>
+                    <p class="text-whiteDiego">2022</p>
+                </div>
             </div>
         </div>
     </footer>

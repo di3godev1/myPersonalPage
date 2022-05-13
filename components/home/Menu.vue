@@ -1,24 +1,23 @@
 <template>
-    <div class="w-screen h-screen bg-blackDiego fixed top-0" :class="isShown">
-        <div @click="closeMenu">
-            <div>
-                <svg
-                    width="318"
-                    height="567"
-                    viewBox="0 0 318 567"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <path
-                        d="M-1.00136e-05 277.5C-1.00136e-05 437.386 129.614 567 289.5 567C449.386 567 579 437.386 579 277.5C579 117.614 449.386 -12 289.5 -12C129.614 -12 -1.00136e-05 117.614 -1.00136e-05 277.5Z"
-                        fill="#DA87B1"
-                    />
-                    <path
-                        d="M4.07746 277.5C4.07746 431.757 128.214 556.806 281.345 556.806C434.476 556.806 558.613 431.757 558.613 277.5C558.613 123.243 434.476 -1.80634 281.345 -1.80634C128.214 -1.80634 4.07746 123.243 4.07746 277.5Z"
-                        fill="#071517"
-                    />
-                </svg>
+    <div
+        class="w-full h-screen bg-blackDiego fixed top-0 transition-all duration-300"
+        :class="isShown"
+    >
+        <div>
+            <figure class="mx-0 my-auto pl-5 mt-7">
+                <img src="~/static/images/frame62.png" alt="Logo" />
+            </figure>
+            <div class="w-4 h-4">
+                <button class="w-4 h-4" :class="isClosed" @click="closeMenu">
+                    <Icons
+                        class="w-6 h-6 text-whiteDiego"
+                        :name="close"
+                    ></Icons>
+                </button>
             </div>
+        </div>
+        <div @click="closeMenu">
+            <div class=""></div>
             <div
                 class="absolute bottom-10 right-3 z-10 h-auto"
                 :class="isClosed"
@@ -41,8 +40,11 @@
 
 <script>
 import { mapGetters, mapActions } from "vuex";
+import Icons from "../global/Icons.vue";
 export default {
+    components: { Icons },
     data: () => ({
+        close: "close",
         menu: [
             {
                 name: "about",

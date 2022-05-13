@@ -5,6 +5,7 @@ import {
     mdiTwitter,
     mdiWeb,
     mdiCopyright,
+    mdiWindowClose,
 } from "@mdi/js";
 
 export default {
@@ -14,4 +15,5 @@ export default {
     instagram: mdiInstagram,
     web: mdiWeb,
     copyright: mdiCopyright,
+    close: mdiWindowClose,
 };

@@ -1,20 +1,16 @@
 <template>
     <div
-        class="w-full h-screen bg-blackDiego fixed top-0 transition-all duration-300"
+        class="w-full h-screen bg-blackDiego fixed top-0 transition-all duration-300 z-30"
         :class="isShown"
     >
-        <div>
-            <figure class="mx-0 my-auto pl-5 mt-7">
+        <div class="flex justify-between items-center px-5 py-3">
+            <figure class="">
                 <img src="~/static/images/frame62.png" alt="Logo" />
             </figure>
-            <div class="w-4 h-4">
-                <button class="w-4 h-4" :class="isClosed" @click="closeMenu">
-                    <Icons
-                        class="w-6 h-6 text-whiteDiego"
-                        :name="close"
-                    ></Icons>
-                </button>
-            </div>
+
+            <button class="w-6 h-6" :class="isClosed" @click="closeMenu">
+                <Icons class="w-6 h-6 text-whiteDiego" :name="close"></Icons>
+            </button>
         </div>
         <div @click="closeMenu">
             <div class=""></div>

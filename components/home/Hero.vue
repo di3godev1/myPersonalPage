@@ -13,7 +13,7 @@
                         >
                             <div class="w-full">
                                 <p
-                                    class="text-xs sm:text-base font-secondary text-greyDiego"
+                                    class="text-xs sm:text-base font-secondary italic text-greyDiego bottom-3"
                                 >
                                     {{ openTitle }}
                                 </p>
@@ -21,7 +21,7 @@
                             <div class="w-full relative lg:left-36">
                                 <div class="">
                                     <p
-                                        class="uppercase text-whiteDiego lg:text-7xl sm:text-5xl"
+                                        class="text-2xl uppercase text-whiteDiego lg:text-7xl sm:text-5xl"
                                     >
                                         hello,
                                     </p>
@@ -30,7 +30,7 @@
                                     class="relative left-7 lg:left-20 sm:left-24"
                                 >
                                     <p
-                                        class="uppercase text-whiteDiego sm:text-5xl lg:text-7xl"
+                                        class="text-2xl uppercase text-whiteDiego sm:text-5xl lg:text-7xl"
                                     >
                                         I'm
                                     </p>
@@ -100,8 +100,12 @@
                         >
                             developer
                         </p>
-                        <div class="flex justify-end left-full relative top-1">
-                            <p class="text-greyDiego justify-end text-xs">
+                        <div
+                            class="flex justify-end -right-40 relative top-1 md:-right-72 md:top-3"
+                        >
+                            <p
+                                class="text-greyDiego justify-end text-xs font-secondary italic"
+                            >
                                 {{ closeTitle }}
                             </p>
                         </div>

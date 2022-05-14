@@ -1,5 +1,5 @@
 <template>
-    <section id="workSection " class="max-w-screen-2xl md:mt-36 lg:mt-52">
+    <section id="workSection" class="max-w-screen-2xl md:mt-36 lg:mt-52">
         <div class="w-full">
             <!-- SVG SECTION -->
             <!-- <my-work class="flex sm:hidden pl-5" />

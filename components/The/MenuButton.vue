@@ -11,7 +11,6 @@ export default {
     methods: {
         ...mapActions("menu", ["activeMenu"]),
         getMenu() {
-            console.log("menu activado");
             this.activeMenu(true);
         },
     },

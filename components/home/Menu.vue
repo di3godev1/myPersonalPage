@@ -18,8 +18,8 @@
                 class="absolute bottom-10 right-3 z-10 h-auto"
                 :class="isClosed"
             >
-                <a
-                    :href="item.section"
+                <nuxt-link
+                    :to="item.section"
                     v-for="(item, index) in menu"
                     :key="index"
                     class="m-7 bottom-0"
@@ -28,7 +28,7 @@
                         :name="item.name"
                         class="text-whiteDiego"
                     ></TheTextStyle>
-                </a>
+                </nuxt-link>
             </div>
         </div>
     </div>
@@ -70,8 +70,11 @@ export default {
         },
     },
     methods: {
+        ...mapActions("menu", ["activeMenu"]),
         closeMenu() {
-            console.log("me debo de cerrar");
+            if (this.showMenu) {
+                this.activeMenu(false);
+            }
         },
     },
 };

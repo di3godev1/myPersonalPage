@@ -26,7 +26,7 @@
                 >
                     <TheTextStyle
                         :name="item.name"
-                        class="text-whiteDiego font-secondary"
+                        class="text-whiteDiego font-secondary text-2xl"
                     ></TheTextStyle>
                 </nuxt-link>
             </div>

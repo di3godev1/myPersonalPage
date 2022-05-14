@@ -1,5 +1,5 @@
 <template>
-    <p>.{{ name }} ()</p>
+    <p class="text-right">.{{ name }} ()</p>
 </template>
 
 <script>

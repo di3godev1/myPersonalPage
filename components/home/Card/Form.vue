@@ -9,7 +9,7 @@
                     type="text"
                     placeholder="insert text"
                     id="name"
-                    class="text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-s"
+                    class="md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-s"
                 />
             </div>
             <div class="md:mt-5 flex flex-col md:flex-row">
@@ -20,7 +20,7 @@
                     type="text"
                     placeholder="insert text"
                     id="email"
-                    class="text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary"
+                    class="md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary"
                 />
             </div>
             <div class="mt-2 md:mt-5 md:flex-row">

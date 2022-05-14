@@ -13,7 +13,7 @@
             </button>
         </div>
         <div @click="closeMenu">
-            <div class=""></div>
+            <div class="circle" />
             <div
                 class="absolute bottom-10 right-3 z-10 h-auto"
                 :class="isClosed"
@@ -26,7 +26,7 @@
                 >
                     <TheTextStyle
                         :name="item.name"
-                        class="text-whiteDiego"
+                        class="text-whiteDiego font-secondary"
                     ></TheTextStyle>
                 </nuxt-link>
             </div>
@@ -63,10 +63,10 @@ export default {
     computed: {
         ...mapGetters("menu", ["showMenu"]),
         isShown() {
-            return this.showMenu === false ? "right-full" : "right-0";
+            return this.showMenu === false ? "left-full" : "left-0";
         },
         isClosed() {
-            return this.showMenu === true ? "right-0" : "right-full";
+            return this.showMenu === true ? "left-0" : "left-full";
         },
     },
     methods: {
@@ -79,3 +79,12 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+.circle {
+    height: 800px;
+    width: 800px;
+    border: 2px solid #da87b1;
+    border-radius: 100%;
+}
+</style>

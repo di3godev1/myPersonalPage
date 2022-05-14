@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full mx-auto max-w-screen-2xl">
+    <div id="aboutSection" class="w-full mx-auto max-w-screen-2xl">
         <div class="w-full flex flex-col justify-center items-center">
             <!-- FIRST SECTION -->
             <div class="w-full flex justify-center items-center">

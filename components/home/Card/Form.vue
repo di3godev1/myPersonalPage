@@ -9,7 +9,7 @@
                     type="text"
                     placeholder="insert text"
                     id="name"
-                    class="px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-s"
+                    class="text-xs md:text-base italic py-1 px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:placeholder:text-base"
                 />
             </div>
             <div class="md:mt-5 flex flex-col md:flex-row">
@@ -23,21 +23,23 @@
                     type="text"
                     placeholder="insert text"
                     id="email"
-                    class="px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary"
+                    class="text-xs italic py-1 px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:text-base md:placeholder:text-base"
                 />
             </div>
             <div class="mt-2 md:mt-5 md:flex-row">
                 <textarea
                     type="text"
                     placeholder="insert text"
-                    class="pt-2 px-2 text-whiteDiego w-full md:h-16 bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary"
+                    class="py-1 px-2 text-whiteDiego w-full md:h-28 bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:text-base italic text-xs md:placeholder:text-base"
                 />
             </div>
             <div class="w-full mt-3">
-                <div class="w-1/2 mx-auto relative right-5">
+                <div
+                    class="top-16 w-16 h-6 mx-auto relative right-3 md:w-32 md:h-10"
+                >
                     <button
                         type="submit"
-                        class="w-full text-whiteDiego border border-pinkDiego rounded-3xl"
+                        class="w-full h-6 text-whiteDiego border text-xs border-pinkDiego rounded-3xl font-secondary md:w-full md:h-10"
                     >
                         .send()
                     </button>

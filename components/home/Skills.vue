@@ -1,5 +1,5 @@
 <template>
-    <section id="skillsSection " class="pt-28 my-0">
+    <section id="skillsSection" class="pt-28 my-0">
         <!-- SVG SECTION -->
         <div class="w-full">
             <div class="flex justify-center">

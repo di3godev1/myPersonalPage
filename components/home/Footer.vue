@@ -18,7 +18,7 @@
                     :name="copy"
                 ></Icons>
                 <div>
-                    <p class="text-whiteDiego">2022</p>
+                    <p class="text-whiteDiego">{{ getCurrentYear }}</p>
                 </div>
             </div>
         </div>
@@ -33,5 +33,19 @@ export default {
         copy: "copyright",
         web: "web",
     }),
+    computed: {
+        getCurrentYear() {
+            return this.getYear();
+        },
+    },
+    methods: {
+        getYear() {
+            const date = new Date();
+            const currentYear = date.getFullYear();
+            console.log(date);
+            console.log(currentYear);
+            return currentYear;
+        },
+    },
 };
 </script>

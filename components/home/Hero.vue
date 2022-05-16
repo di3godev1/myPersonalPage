@@ -27,7 +27,7 @@
                                     </p>
                                 </div>
                                 <div
-                                    class="relative left-7 lg:left-20 sm:left-24"
+                                    class="relative left-7 lg:left-32 sm:left-24"
                                 >
                                     <p
                                         class="text-2xl uppercase text-whiteDiego sm:text-5xl lg:text-7xl"

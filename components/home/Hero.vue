@@ -19,16 +19,16 @@
                                 </p>
                             </div>
                             <div class="w-full relative lg:left-36">
-                                <div class="">
+                                <div class="lg:pl-8">
                                     <p
                                         class="text-2xl uppercase text-whiteDiego lg:text-7xl sm:text-5xl"
                                     >
                                         hello,
                                     </p>
                                 </div>
-                                <div class="relative left-7 sm:left-24">
+                                <div class="relative left-7">
                                     <p
-                                        class="relative lg:-right-9 text-2xl uppercase text-whiteDiego sm:text-5xl lg:text-7xl"
+                                        class="text-2xl uppercase text-whiteDiego sm:text-5xl lg:text-7xl"
                                     >
                                         I'm
                                     </p>
@@ -77,24 +77,24 @@
                     >
                         <div class="relative w-full right-5">
                             <p
-                                class="text-2xl uppercase text-whiteDiego text-right sm:text-5xl"
+                                class="text-2xl uppercase text-whiteDiego text-right sm:text-5xl lg:text-7xl"
                             >
                                 front-
                             </p>
                         </div>
                         <div class="relative w-full right-5">
                             <p
-                                class="text-2xl sm:text-5xl uppercase text-whiteDiego text-right"
+                                class="text-2xl sm:text-5xl uppercase text-whiteDiego text-right lg:text-7xl"
                             >
                                 end
                             </p>
                         </div>
                     </div>
                     <div
-                        class="bg-blackDiego relative w-1/3 -top-9 right-16 my-0 mx-auto sm:mt-6 mt-2"
+                        class="bg-blackDiego relative w-1/3 -top-9 -left-44 lg:top-1 my-0 mx-auto sm:mt-6 mt-2"
                     >
                         <p
-                            class="text-2xl uppercase text-whiteDiego relative left-full top-1 sm:text-5xl"
+                            class="text-2xl uppercase text-whiteDiego relative left-full top-1 sm:text-5xl lg:text-7xl"
                         >
                             developer
                         </p>

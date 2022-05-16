@@ -26,11 +26,9 @@
                                         hello,
                                     </p>
                                 </div>
-                                <div
-                                    class="relative left-7 lg:left-32 sm:left-24"
-                                >
+                                <div class="relative left-7 sm:left-24">
                                     <p
-                                        class="text-2xl uppercase text-whiteDiego sm:text-5xl lg:text-7xl"
+                                        class="relative lg:-right-9 text-2xl uppercase text-whiteDiego sm:text-5xl lg:text-7xl"
                                     >
                                         I'm
                                     </p>

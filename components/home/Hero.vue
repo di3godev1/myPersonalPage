@@ -112,15 +112,21 @@
                     </div>
                 </div>
                 <!-- DESCRIPTION SECTION -->
-                <div class="w-full h-52 flex justify-end bg-blackDiego">
+                <div class="w-full flex justify-end bg-blackDiego">
                     <div class="w-full">
                         <p
-                            class="text-greyDiego text-right relative -top-5 -left-9"
+                            class="text-greyDiego text-right relative -top-5 -left-9 text-xs"
                         >
                             {{ startTheDescription }}
                         </p>
+
+                        <p
+                            class="text-greyDiego text-right relative top-44 lg:top-44 -left-9 text-xs"
+                        >
+                            {{ closeTheDescription }}
+                        </p>
                     </div>
-                    <div class="w-1/3 h-52 right-10 relative">
+                    <div class="w-1/3 right-10 relative">
                         <p
                             class="text-whiteDiego text-xs lg:text-2xl sm:text-lg font-secondary"
                         >
@@ -162,6 +168,7 @@ export default {
         openTitle: "<h1>",
         closeTitle: "</h1>",
         startTheDescription: "<p>",
+        closeTheDescription: "</p>",
     }),
 };
 </script>

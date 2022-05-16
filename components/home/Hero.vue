@@ -11,7 +11,7 @@
                         <div
                             class="w-full flex flex-col justify-center items-start"
                         >
-                            <div class="w-full">
+                            <div class="w-full flex relative lg:left-36">
                                 <p
                                     class="text-xs sm:text-base font-secondary italic text-greyDiego bottom-3"
                                 >

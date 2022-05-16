@@ -6,6 +6,7 @@
                     name:
                 </label>
                 <input
+                    v-model="userName"
                     type="text"
                     placeholder="insert text"
                     id="name"
@@ -20,6 +21,7 @@
                     email:
                 </label>
                 <input
+                    v-model="userEmail"
                     type="text"
                     placeholder="insert text"
                     id="email"
@@ -28,6 +30,7 @@
             </div>
             <div class="mt-2 md:mt-5 md:flex-row">
                 <textarea
+                    v-model="userMessage"
                     type="text"
                     placeholder="insert text"
                     class="py-1 px-2 text-whiteDiego w-full md:h-28 bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:text-base italic text-xs md:placeholder:text-base"
@@ -40,6 +43,7 @@
                     <button
                         type="submit"
                         class="w-full h-6 text-whiteDiego border text-xs border-pinkDiego rounded-3xl font-secondary md:w-full md:h-10"
+                        @click="sendEmail"
                     >
                         .send()
                     </button>
@@ -48,3 +52,21 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    data: () => ({
+        userName: "",
+        userEmail: "",
+        userMessage: "",
+    }),
+    methods: {
+        sendEmail() {
+            const name = this.userName;
+            const email = this.userEmail;
+            const message = this.userMessage;
+            console.log(name, email, message);
+        },
+    },
+};
+</script>

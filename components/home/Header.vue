@@ -16,7 +16,7 @@
                     >
                         <TheTextStyle
                             :name="item.name"
-                            class="text-whiteDiego mr-14 relative top-10"
+                            class="text-whiteDiego mr-14 relative top-10 font-secondary"
                         >
                         </TheTextStyle>
                     </a>

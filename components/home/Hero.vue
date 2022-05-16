@@ -112,23 +112,23 @@
                     </div>
                 </div>
                 <!-- DESCRIPTION SECTION -->
-                <div class="w-full flex justify-end bg-blackDiego">
+                <div class="w-full flex justify-end">
                     <div class="w-full">
                         <p
-                            class="text-greyDiego text-right relative -top-5 -left-9 text-xs"
+                            class="text-greyDiego text-right relative -top-5 -left-9 text-xs pt-16"
                         >
                             {{ startTheDescription }}
                         </p>
 
                         <p
-                            class="text-greyDiego text-right relative top-44 lg:top-44 -left-9 text-xs"
+                            class="text-greyDiego text-right relative top-28 lg:top-28 md:top-20 -left-9 text-xs pt-16"
                         >
                             {{ closeTheDescription }}
                         </p>
                     </div>
                     <div class="w-1/3 right-10 relative">
                         <p
-                            class="text-whiteDiego text-xs lg:text-2xl sm:text-lg font-secondary"
+                            class="text-whiteDiego text-xs lg:text-2xl sm:text-lg font-secondary pt-16"
                         >
                             Soy Diego Reyes, frontend developer, un joven
                             estusiasmado por la tecnología y lo que esta puede

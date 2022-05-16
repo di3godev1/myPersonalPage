@@ -42,8 +42,6 @@ export default {
         getYear() {
             const date = new Date();
             const currentYear = date.getFullYear();
-            console.log(date);
-            console.log(currentYear);
             return currentYear;
         },
     },

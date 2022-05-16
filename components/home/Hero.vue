@@ -113,6 +113,13 @@
                 </div>
                 <!-- DESCRIPTION SECTION -->
                 <div class="w-full h-52 flex justify-end bg-blackDiego">
+                    <div class="w-full">
+                        <p
+                            class="text-greyDiego text-right relative -top-5 -left-9"
+                        >
+                            {{ startTheDescription }}
+                        </p>
+                    </div>
                     <div class="w-1/3 h-52 right-10 relative">
                         <p
                             class="text-whiteDiego text-xs lg:text-2xl sm:text-lg font-secondary"
@@ -126,13 +133,13 @@
                 <!-- SECOND IMAGE SECTION -->
                 <div class="w-full relative md:-top-96 -top-80 -left-11">
                     <div
-                        class="w-56 h-56 rounded-full absolute -left-8 width-tablet width-desktop"
+                        class="w-56 h-56 rounded-full absolute -left-8 width-tablet width-desktop width-sm"
                     >
                         <img
                             src="https://scontent.fgye1-2.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=psQ_vFbI578AX8yYAHR&_nc_ht=scontent.fgye1-2.fna&oh=00_AT_VqgJg6IXqqEWrhj7U3LVLPGM0IU15E-EjCWzVjIf3dA&oe=627B1BA2"
                             alt=""
                             srcset=""
-                            class="object-cover rounded-full w-56 h-56 border-t-2 border-r-4 border-b-8 border-pinkDiego width-tablet width-desktop"
+                            class="object-cover rounded-full w-56 h-56 border-t-2 border-r-4 border-b-8 border-pinkDiego width-tablet width-desktop width-sm"
                         />
                     </div>
                 </div>
@@ -154,17 +161,26 @@ export default {
     data: () => ({
         openTitle: "<h1>",
         closeTitle: "</h1>",
+        startTheDescription: "<p>",
     }),
 };
 </script>
 
 <style scoped>
-@media only screen and (min-device-width: 720px) and (max-device-width: 1023px) {
+@media only screen and (min-device-width: 490px) and (max-device-width: 767px) {
+    .width-sm {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .width-tablet {
         width: 470px;
         height: 470px;
     }
 }
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
     .width-desktop {
         width: 543px;

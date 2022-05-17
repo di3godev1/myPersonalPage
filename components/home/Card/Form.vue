@@ -7,6 +7,7 @@
                 </label>
                 <input
                     v-model="userName"
+                    required
                     type="text"
                     placeholder="insert text"
                     id="name"
@@ -22,9 +23,10 @@
                 </label>
                 <input
                     v-model="userEmail"
-                    type="text"
+                    type="email"
                     placeholder="insert text"
                     id="email"
+                    required
                     class="text-xs italic py-1 px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:text-base md:placeholder:text-base"
                 />
             </div>

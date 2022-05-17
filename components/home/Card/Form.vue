@@ -64,6 +64,7 @@ export default {
         userMessage: "",
     }),
     methods: {
+        // FUCTION TO GET THE EMAIL
         async sendEmail() {
             const mail = {
                 from_name: this.userName,

@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div
-                        class="bg-blackDiego relative w-1/3 -top-9 -left-44 lg:top-1 my-0 mx-auto sm:mt-6 mt-2"
+                        class="bg-blackDiego relative w-1/3 -top-9 right-16 lg:top-1 lg:-left-36 my-0 mx-auto sm:mt-6 mt-2"
                     >
                         <p
                             class="text-2xl uppercase text-whiteDiego relative left-full top-1 sm:text-5xl lg:text-7xl"

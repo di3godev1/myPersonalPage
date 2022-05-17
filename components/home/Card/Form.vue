@@ -54,6 +54,7 @@
 </template>
 
 <script>
+import emailjs from "emailjs-com";
 export default {
     data: () => ({
         userName: "",
@@ -61,11 +62,23 @@ export default {
         userMessage: "",
     }),
     methods: {
-        sendEmail() {
-            const name = this.userName;
-            const email = this.userEmail;
-            const message = this.userMessage;
-            console.log(name, email, message);
+        async sendEmail() {
+            const mail = {
+                from_name: this.userName,
+                from_email: this.userEmail,
+                message: this.userMessage,
+            };
+            try {
+                await emailjs.send(
+                    process.env.NUXT_APP_SERVICE,
+                    process.env.NUXT_APP_TEMPLATE,
+                    mail,
+                    process.env.NUXT_APP_ID
+                );
+                alert("correo enviado");
+            } catch (error) {
+                console.error("CANNOT_SEND_EMAIL", error);
+            }
         },
     },
 };

@@ -29,6 +29,9 @@
                     required
                     class="text-xs italic py-1 px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:text-base md:placeholder:text-base"
                 />
+                <span class="text-whiteDiego italic" v-if="!checkMail">
+                    {{ userEmailError }}</span
+                >
             </div>
             <div class="mt-2 md:mt-5 md:flex-row">
                 <textarea
@@ -44,7 +47,12 @@
                 >
                     <button
                         type="submit"
-                        class="w-full h-6 text-whiteDiego border text-xs border-pinkDiego rounded-3xl font-secondary md:w-full md:h-10"
+                        class="w-full h-6 border text-xs rounded-3xl font-secondary md:w-full md:h-10"
+                        :class="{
+                            'border-pinkDiego text-whiteDiego': !checkMail,
+                            'text-greyDiego border-greyDiego': checkMail,
+                        }"
+                        :disabled="checkMail"
                         @click.prevent="sendEmail"
                     >
                         .send()
@@ -61,9 +69,27 @@ export default {
     data: () => ({
         userName: "",
         userEmail: "",
+        userEmailError: "",
         userMessage: "",
     }),
+    computed: {
+        //GETTING MAIL VALID IF NOT HAS REGEX OR EMPT
+        checkMail() {
+            if (!this.validMail(this.userMail) && this.userEmail !== "") {
+                this.userEmailError = "Ingresa un correo valido";
+                return false;
+            } else {
+                return true;
+            }
+        },
+    },
     methods: {
+        // FUNTION TO VALIDATE THE EMAIL
+        validMail(mail) {
+            const regex =
+                /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return regex.test(mail);
+        },
         // FUCTION TO GET THE EMAIL
         async sendEmail() {
             const mail = {
@@ -83,7 +109,6 @@ export default {
                 console.error("CANNOT_SEND_EMAIL", error);
             }
         },
-        // FUNTION TO VALIDATE THE EMAIL
     },
 };
 </script>

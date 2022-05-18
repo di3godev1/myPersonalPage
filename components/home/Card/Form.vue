@@ -45,7 +45,7 @@
                     <button
                         type="submit"
                         class="w-full h-6 text-whiteDiego border text-xs border-pinkDiego rounded-3xl font-secondary md:w-full md:h-10"
-                        @click="sendEmail"
+                        @click.prevent="sendEmail"
                     >
                         .send()
                     </button>

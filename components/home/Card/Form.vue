@@ -1,6 +1,6 @@
 <template>
     <div class="w-full flex justify-center items-center max-w-5xl">
-        <div class="flex flex-col relative top-7 left-2 md:top-48 w-4/5">
+        <form class="flex flex-col relative top-7 left-2 md:top-48 w-4/5">
             <div class="flex flex-col md:flex-row">
                 <label for="name" class="text-whiteDiego text-base md:text-3xl">
                     name:
@@ -51,7 +51,7 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 </template>
 
@@ -83,6 +83,7 @@ export default {
                 console.error("CANNOT_SEND_EMAIL", error);
             }
         },
+        // FUNTION TO VALIDATE THE EMAIL
     },
 };
 </script>

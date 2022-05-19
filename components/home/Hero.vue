@@ -57,7 +57,7 @@
                                 class="w-36 h-36 bg-pinkDiego rounded-full relative lg:w-96 lg:h-96 sm:w-56 sm:h-56"
                             >
                                 <img
-                                    src="https://scontent.fgye1-2.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=psQ_vFbI578AX8yYAHR&_nc_ht=scontent.fgye1-2.fna&oh=00_AT_VqgJg6IXqqEWrhj7U3LVLPGM0IU15E-EjCWzVjIf3dA&oe=627B1BA2"
+                                    src="https://scontent.fgye1-1.fna.fbcdn.net/v/t1.6435-9/83791809_178617506716119_9119597483725422592_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGzpdTYD3PcozAvkWuPUsEi2agwY1UxmJLZqDBjVTGYkjn0_rJ8Jsy54VmtdsX_MdTAdbBUlKwP2aJdJrwqgRq3&_nc_ohc=dJU3LvENLdMAX-qo4Rd&_nc_ht=scontent.fgye1-1.fna&oh=00_AT__chU2siPIMbC8Phn6uFmqsJqXYAol_fu3CNftq6Yttw&oe=62AC8270"
                                     alt=""
                                     srcset=""
                                     class="object-cover rounded-full w-36 h-36 border-t-2 border-l-4 border-b-8 border-pinkDiego lg:w-96 lg:h-96 sm:w-56 sm:h-56"
@@ -140,7 +140,7 @@
                         class="w-56 h-56 rounded-full absolute -left-8 width-tablet width-desktop width-sm"
                     >
                         <img
-                            src="https://scontent.fgye1-2.fna.fbcdn.net/v/t39.30808-6/246461857_579754813269051_2270695955322423465_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=19026a&_nc_eui2=AeGMACMPNU3oK0YKJVqslhMKyyiwZR7f0lrLKLBlHt_SWvOltMLOo4L6g5hV1yKPxYTyp6B2rpmijfXqdNjRgZGH&_nc_ohc=psQ_vFbI578AX8yYAHR&_nc_ht=scontent.fgye1-2.fna&oh=00_AT_VqgJg6IXqqEWrhj7U3LVLPGM0IU15E-EjCWzVjIf3dA&oe=627B1BA2"
+                            src="https://scontent.fgye1-1.fna.fbcdn.net/v/t1.6435-9/83791809_178617506716119_9119597483725422592_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGzpdTYD3PcozAvkWuPUsEi2agwY1UxmJLZqDBjVTGYkjn0_rJ8Jsy54VmtdsX_MdTAdbBUlKwP2aJdJrwqgRq3&_nc_ohc=dJU3LvENLdMAX-qo4Rd&_nc_ht=scontent.fgye1-1.fna&oh=00_AT__chU2siPIMbC8Phn6uFmqsJqXYAol_fu3CNftq6Yttw&oe=62AC8270"
                             alt=""
                             srcset=""
                             class="object-cover rounded-full w-56 h-56 border-t-2 border-r-4 border-b-8 border-pinkDiego width-tablet width-desktop width-sm"

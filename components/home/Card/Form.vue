@@ -13,6 +13,7 @@
                     id="name"
                     class="text-xs md:text-base italic py-1 px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:placeholder:text-base"
                 />
+                <span class="text-whiteDiego italic">{{ userNameError }}</span>
             </div>
             <div class="md:mt-5 flex flex-col md:flex-row">
                 <label
@@ -70,6 +71,7 @@ export default {
         userName: "",
         userEmail: "",
         userEmailError: "",
+        userNameError: "",
         userMessage: "",
     }),
     computed: {
@@ -77,6 +79,15 @@ export default {
         checkMail() {
             if (!this.validMail(this.userMail) && this.userEmail !== "") {
                 this.userEmailError = "Ingresa un correo valido";
+                return false;
+            } else {
+                return true;
+            }
+        },
+        //GETTING NAME VALID
+        checkName() {
+            if (!this.validName(this.userName) && this.userName !== "") {
+                this.userNameError = "Ingresa tu nombre completo";
                 return false;
             } else {
                 return true;
@@ -109,6 +120,12 @@ export default {
                 console.error("CANNOT_SEND_EMAIL", error);
             }
         },
+        //FUNCTION TO VALIDATE THE NAME
+        // validName(name) {
+        //     const regex =
+        //         /^[a-z\u00C0-\u02AB'´`]+\.?\s([a-z\u00C0-\u02AB'´`]+\.?\s?)+$/;
+        //     return regex.test(name);
+        // },
     },
 };
 </script>

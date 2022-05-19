@@ -77,12 +77,9 @@ export default {
     computed: {
         //GETTING MAIL VALID IF NOT HAS REGEX OR EMPT
         checkMail() {
-            if (!this.validMail(this.userMail) && this.userEmail !== "") {
-                this.userEmailError = "Ingresa un correo valido";
-                return false;
-            } else {
-                return true;
-            }
+            return this.validMail(this.userMail) && this.userEmail !== ""
+                ? true
+                : false;
         },
         //GETTING NAME VALID
         checkName() {
@@ -91,6 +88,15 @@ export default {
                 return false;
             } else {
                 return true;
+            }
+        },
+    },
+    watch: {
+        checkMail(value) {
+            if (value) {
+                this.userEmailError = "Ingresa un correo valido";
+            } else {
+                this.userEmailError = "";
             }
         },
     },

@@ -2,7 +2,10 @@
     <div class="w-full flex justify-center items-center max-w-5xl">
         <form class="flex flex-col relative top-7 left-2 md:top-48 w-4/5">
             <div class="flex flex-col md:flex-row">
-                <label for="name" class="text-whiteDiego text-base md:text-3xl">
+                <label
+                    for="name"
+                    class="text-whiteDiego text-sm sm:text-base md:text-3xl"
+                >
                     name:
                 </label>
                 <input
@@ -13,12 +16,16 @@
                     id="name"
                     class="text-xs md:text-base italic py-1 px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:placeholder:text-base"
                 />
-                <span class="text-whiteDiego italic">{{ userNameError }}</span>
+                <span
+                    class="text-whiteDiego italic text-xs"
+                    v-if="!checkName"
+                    >{{ userNameError }}</span
+                >
             </div>
             <div class="md:mt-5 flex flex-col md:flex-row">
                 <label
                     for="email"
-                    class="text-whiteDiego text-base md:text-3xl"
+                    class="text-whiteDiego text-sm sm:text-base md:text-3xl"
                 >
                     email:
                 </label>
@@ -30,7 +37,7 @@
                     required
                     class="text-xs italic py-1 px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:text-base md:placeholder:text-base"
                 />
-                <span class="text-whiteDiego italic" v-if="!checkMail">
+                <span class="text-whiteDiego italic text-xs" v-if="!checkMail">
                     {{ userEmailError }}</span
                 >
             </div>
@@ -39,7 +46,7 @@
                     v-model="userMessage"
                     type="text"
                     placeholder="insert text"
-                    class="py-1 px-2 text-whiteDiego w-full md:h-28 bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:text-base italic text-xs md:placeholder:text-base"
+                    class="py-1 px-2 text-whiteDiego w-full md:h-28 bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary text-sm sm:text-base italic md:placeholder:text-base"
                 />
             </div>
             <div class="w-full mt-3">
@@ -69,34 +76,29 @@ import emailjs from "emailjs-com";
 export default {
     data: () => ({
         userName: "",
+        userNameError: "",
         userEmail: "",
         userEmailError: "",
-        userNameError: "",
         userMessage: "",
     }),
     computed: {
         //GETTING MAIL VALID IF NOT HAS REGEX OR EMPT
         checkMail() {
-            return this.validMail(this.userMail) && this.userEmail !== ""
-                ? true
-                : false;
-        },
-        //GETTING NAME VALID
-        checkName() {
-            if (!this.validName(this.userName) && this.userName !== "") {
-                this.userNameError = "Ingresa tu nombre completo";
+            if (!this.validMail(this.mail) && this.mail !== "") {
+                this.userEmailError = "Ingresa un correo válido 😸";
                 return false;
             } else {
                 return true;
             }
         },
-    },
-    watch: {
-        checkMail(value) {
-            if (value) {
-                this.userEmailError = "Ingresa un correo valido";
+
+        //GETTING NAME VALID
+        checkName() {
+            if (!this.validName(this.name) && this.name !== "") {
+                this.userNameError = "Ingresa tu nombre completo 😸";
+                return false;
             } else {
-                this.userEmailError = "";
+                return true;
             }
         },
     },
@@ -127,11 +129,11 @@ export default {
             }
         },
         //FUNCTION TO VALIDATE THE NAME
-        // validName(name) {
-        //     const regex =
-        //         /^[a-z\u00C0-\u02AB'´`]+\.?\s([a-z\u00C0-\u02AB'´`]+\.?\s?)+$/;
-        //     return regex.test(name);
-        // },
+        validName(name) {
+            const regex =
+                /^[a-z\u00C0-\u02AB'´`]+\.?\s([a-z\u00C0-\u02AB'´`]+\.?\s?)+$/;
+            return regex.test(name);
+        },
     },
 };
 </script>

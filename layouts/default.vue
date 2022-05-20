@@ -1,6 +1,6 @@
 <template>
     <div class="bg-blackDiego">
-        <div class="max-w-screen-lg mx-auto">
+        <div class="max-w-screen-xl mx-auto">
             <HomeHeader></HomeHeader>
             <Nuxt />
             <HomeMenu></HomeMenu>

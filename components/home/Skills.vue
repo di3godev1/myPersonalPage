@@ -100,7 +100,7 @@
         left: 30%;
     }
 }
-@media only screen and (min-device-width: 921px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 921px) and (max-device-width: 1025px) {
     .size-353px {
         height: 340px;
         width: 340px;

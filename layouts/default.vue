@@ -1,9 +1,11 @@
 <template>
     <div class="bg-blackDiego">
-        <HomeHeader></HomeHeader>
-        <Nuxt />
-        <HomeMenu></HomeMenu>
-        <!-- <HomeFooter></HomeFooter> -->
+        <div class="max-w-screen-lg mx-auto">
+            <HomeHeader></HomeHeader>
+            <Nuxt />
+            <HomeMenu></HomeMenu>
+            <HomeFooter></HomeFooter>
+        </div>
     </div>
 </template>
 

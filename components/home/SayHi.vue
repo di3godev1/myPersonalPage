@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .size-tablet {
         width: 664px;
         height: 664px;

@@ -1,6 +1,8 @@
 <template>
-    <div class="w-full flex justify-center items-center max-w-5xl">
-        <form class="flex flex-col relative top-7 left-2 md:top-48 w-4/5">
+    <div
+        class="w-full flex justify-center items-center max-w-5xl relative md:top-28 sm:top-16"
+    >
+        <form class="flex flex-col relative top-7 left-2 md:top-14 w-4/5">
             <div class="flex flex-col md:flex-row">
                 <label
                     for="name"
@@ -51,7 +53,7 @@
             </div>
             <div class="w-full mt-3">
                 <div
-                    class="top-16 w-16 h-6 mx-auto relative right-3 md:w-32 md:h-10"
+                    class="w-16 h-6 mx-auto relative right-3 md:w-32 md:h-10 -top-3 sm:top-5"
                 >
                     <button
                         type="submit"

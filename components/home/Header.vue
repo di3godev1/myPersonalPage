@@ -36,11 +36,11 @@ export default {
             },
             {
                 name: "work",
-                section: "workSection",
+                section: "#workSection",
             },
             {
                 name: "skills",
-                section: "skillsSection",
+                section: "#skillsSection",
             },
             {
                 name: "say_hi",

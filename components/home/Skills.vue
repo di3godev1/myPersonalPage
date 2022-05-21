@@ -127,7 +127,7 @@
     }
     .left-353px {
         position: absolute;
-        left: 28%;
+        left: 30%;
     }
 }
 </style>

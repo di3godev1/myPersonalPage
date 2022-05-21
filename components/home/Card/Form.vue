@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-full flex justify-center items-center max-w-5xl relative md:top-28 sm:top-16"
+        class="w-full flex justify-center items-center max-w-5xl relative top-768px sm:top-16"
     >
         <form class="flex flex-col relative top-7 left-2 md:top-14 w-4/5">
             <div class="flex flex-col md:flex-row">
@@ -139,3 +139,12 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+@media only screen and (min-device-width: 788px) {
+    .top-768px {
+        position: relative;
+        top: 23%;
+    }
+}
+</style>

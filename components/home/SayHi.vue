@@ -48,4 +48,10 @@ export default {
         height: 664px;
     }
 }
+@media only screen and (min-device-width: 641px) and (max-device-width: 769px) {
+    .size-tablet {
+        width: 420px;
+        height: 420px;
+    }
+}
 </style>

@@ -186,7 +186,7 @@ export default {
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+@media only screen and (min-device-width: 1024px) {
     .width-desktop {
         width: 543px;
         height: 543px;

@@ -2,7 +2,7 @@
     <section id="say_hiSection" class="mt-20 bg-blackDiego">
         <!-- SVG SECTION -->
         <div
-            class="w-4/5 flex flex-col mx-auto max-w-7xl flex-wrap justify-center items-center"
+            class="w-4/5 flex flex-col mx-auto max-w-7xl flex-wrap justify-center items-center relative lg:right-10"
         >
             <div
                 class="flex justify-end pb-2 md:mr-10 lg:mr-1 relative md:left-40 left-16"
@@ -42,6 +42,12 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-device-width: 767px) {
+    .size-tablet {
+        width: 285px;
+        height: 285px;
+    }
+}
 @media only screen and (min-device-width: 768px) {
     .size-tablet {
         width: 664px;

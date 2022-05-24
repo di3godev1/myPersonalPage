@@ -33,14 +33,6 @@
                 class="w-48 h-48 sm:h-80 sm:w-80 md:h-96 lg:h-96 border-l-8 border-y-4 relative z-0 border-r-2 border-pinkDiego rounded-full md:w-1/2 size-desktop size-353px"
             />
             <!-- IMAGE -->
-            <div
-                class="w-1/2 md:h-96 size-desktop size-353px absolute top-0 md:top-1 left-1/4 right-0 z-20 rounded-full left-353px"
-            >
-                <img
-                    src="~/static/images/ImagesAboutMe/elbichosiu.png"
-                    class="md:h-96 absolute -top-1 -left-0 right-0 w-full object-cover object-center mask size-desktop size-353px"
-                />
-            </div>
         </div>
     </section>
 </template>

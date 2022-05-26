@@ -21,11 +21,19 @@
         <div class="mt-16 w-full mx-auto flex justify-center relative">
             <!-- LETTERS BACKGROUND -->
             <div class="w-full absolute top-6 md:top-1/3 left-0 z-10">
-                <p
-                    class="uppercase w-full text-7xl whitespace-nowrap absolute top-0 left-0 text-whiteDiego overflow-hidden text-center"
-                >
-                    vue-html-css-nuxt-tailwindcss-javascript
-                </p>
+                <vue-tiny-slider v-bind="tinySliderOptions">
+                    <div
+                        v-for="(slide, index) in sliders"
+                        :key="index"
+                        class="flex justify-center items-center"
+                    >
+                        <p
+                            class="text-whiteDiego text-7xl uppercase text-center"
+                        >
+                            {{ slide.name }}
+                        </p>
+                    </div>
+                </vue-tiny-slider>
             </div>
 
             <!-- CIRCLE -->
@@ -36,6 +44,76 @@
         </div>
     </section>
 </template>
+
+<script>
+export default {
+    head() {
+        return {
+            link: [
+                {
+                    rel: "stylesheet",
+                    href: "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css",
+                },
+            ],
+        };
+    },
+
+    data: () => ({
+        tinySliderOptions: {
+            mouseDrag: false,
+            loop: true,
+            items: 3,
+            swipeAngle: 45,
+            autoplay: true,
+            autoplayTimeout: 1200,
+            touch: false,
+            center: true,
+            autoWidth: true,
+            controls: false,
+            nav: false,
+            autoplayText: ["", ""],
+        },
+        sliders: [
+            {
+                name: "html",
+            },
+            {
+                name: "-",
+            },
+            {
+                name: "nuxt",
+            },
+            {
+                name: "-",
+            },
+            {
+                name: "vue",
+            },
+            {
+                name: "-",
+            },
+            {
+                name: "css",
+            },
+            {
+                name: "-",
+            },
+            {
+                name: "javascript",
+            },
+            {
+                name: "-",
+            },
+            {
+                name: "tailwind",
+            },
+            {
+                name: "-",
+            },
+        ],
+    }),
+};
+</script>
 
 <style scoped>
 .mask {

@@ -1,5 +1,8 @@
 <template>
-    <section id="workSection" class="max-w-screen-2xl md:mt-36 lg:mt-52">
+    <section
+        id="workSection"
+        class="max-w-screen-2xl md:mt-36 lg:mt-52 marginTop"
+    >
         <div class="w-full mt-20 sm:mt-48">
             <!-- SVG SECTION -->
             <!-- <my-work class="flex sm:hidden pl-5" />
@@ -66,3 +69,11 @@ export default {
     }),
 };
 </script>
+
+<style scoped>
+@media only screen and (min-device-width: 490px) and (max-device-width: 638px) {
+    .marginTop {
+        margin-top: 200px;
+    }
+}
+</style>

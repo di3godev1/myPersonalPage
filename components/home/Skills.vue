@@ -38,7 +38,7 @@
 
             <!-- CIRCLE -->
             <div
-                class="w-48 h-48 sm:h-80 sm:w-80 md:h-96 lg:h-96 border-l-8 border-y-4 relative z-0 border-r-2 border-pinkDiego rounded-full md:w-1/2 size-desktop size-353px"
+                class="w-60 h-60 sm:h-80 sm:w-80 md:h-96 lg:h-96 border-l-8 border-y-4 relative z-0 border-r-2 border-pinkDiego rounded-full md:w-1/2 size-desktop size-353px"
             />
             <!-- IMAGE -->
         </div>

@@ -58,7 +58,7 @@ export default {
         works: [
             {
                 name: "maverick",
-                link: "somosmaverick.com",
+                link: "https://www.somosmaverick.com/",
                 description: "Agencia de desarrollo de productos digitales",
                 date: "<!-- 2022 -->",
             },

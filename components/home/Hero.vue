@@ -110,18 +110,27 @@
                     </div>
                 </div>
                 <!-- DESCRIPTION SECTION -->
-                <div class="mt-44">
-                    <div class="px-5 relative -top-12">
+                <div class="mt-44 w-full">
+                    <div
+                        class="px-5 relative -top-12 sm:flex sm:justify-end sm:items-center sm:right-80 top"
+                    >
                         <p class="text-greyDiego">{{ startTheDescription }}</p>
                     </div>
                     <div
-                        class="w-full flex justify-center items-center relative -top-12"
+                        class="w-full flex justify-center items-center relative -top-12 sm:flex sm:justify-end sm:items-center sm:right-4 top"
                     >
-                        <p class="px-2 text-whiteDiego text-center text-sm">
+                        <p
+                            class="lg:text-2xl sm:text-base sm:w-1/2 px-2 text-whiteDiego text-center text-sm"
+                        >
                             Soy Diego Reyes, frontend developer, un joven
                             estusiasmado por la tecnología y lo que esta puede
                             darnos como usuarios.
                         </p>
+                    </div>
+                    <div
+                        class="px-5 relative bottom-9 sm:flex sm:justify-end sm:items-center sm:right-4 top"
+                    >
+                        <p class="text-greyDiego">{{ closeTheDescription }}</p>
                     </div>
                 </div>
                 <!-- SECOND IMAGE SECTION -->
@@ -162,18 +171,24 @@ export default {
 </script>
 
 <style scoped>
-/* @media only screen and (min-device-width: 490px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 490px) and (max-device-width: 740px) {
     .top {
         position: relative;
-        top: 42px;
+        top: 80px;
     }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-    .top {
+
+@media only screen and (min-device-width: 405px) and (max-device-width: 767px) {
+    /* .hero-description {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
         position: relative;
-        top: 160px;
-    }
-} */
+        right: 4;
+    } */
+    /* sm:flex sm:justify-end sm:items-center sm:right-4 */
+}
 
 @media only screen and (min-device-width: 490px) and (max-device-width: 767px) {
     .width-sm {

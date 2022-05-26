@@ -110,24 +110,14 @@
                     </div>
                 </div>
                 <!-- DESCRIPTION SECTION -->
-                <div class="w-full flex justify-end">
-                    <div class="w-full">
-                        <p
-                            class="text-greyDiego text-right relative -top-5 -left-9 text-xs pt-16"
-                        >
-                            {{ startTheDescription }}
-                        </p>
-
-                        <p
-                            class="text-greyDiego text-right relative top-28 lg:top-28 md:top-20 -left-9 text-xs pt-16"
-                        >
-                            {{ closeTheDescription }}
-                        </p>
+                <div class="mt-44">
+                    <div class="px-5 relative -top-12">
+                        <p class="text-greyDiego">{{ startTheDescription }}</p>
                     </div>
-                    <div class="w-1/3 right-10 relative">
-                        <p
-                            class="text-whiteDiego text-xs lg:text-2xl sm:text-lg font-secondary pt-16"
-                        >
+                    <div
+                        class="w-full flex justify-center items-center relative -top-12"
+                    >
+                        <p class="px-2 text-whiteDiego text-center text-sm">
                             Soy Diego Reyes, frontend developer, un joven
                             estusiasmado por la tecnología y lo que esta puede
                             darnos como usuarios.
@@ -135,7 +125,7 @@
                     </div>
                 </div>
                 <!-- SECOND IMAGE SECTION -->
-                <div class="w-full relative md:-top-96 -top-80 -left-11">
+                <div class="w-full relative -top-96 -left-11">
                     <div
                         class="border-t-2 border-r-4 border-b-8 border-pinkDiego w-56 h-56 rounded-full absolute -left-8 width-tablet width-desktop width-sm"
                     >
@@ -172,6 +162,19 @@ export default {
 </script>
 
 <style scoped>
+/* @media only screen and (min-device-width: 490px) and (max-device-width: 767px) {
+    .top {
+        position: relative;
+        top: 42px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .top {
+        position: relative;
+        top: 160px;
+    }
+} */
+
 @media only screen and (min-device-width: 490px) and (max-device-width: 767px) {
     .width-sm {
         width: 350px;

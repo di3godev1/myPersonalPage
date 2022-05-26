@@ -126,6 +126,7 @@ export default {
                     process.env.NUXT_APP_ID
                 );
                 alert("correo enviado");
+                this.resetInputs();
             } catch (error) {
                 console.error("CANNOT_SEND_EMAIL", error);
             }
@@ -135,6 +136,11 @@ export default {
             const regex =
                 /^[a-z\u00C0-\u02AB'´`]+\.?\s([a-z\u00C0-\u02AB'´`]+\.?\s?)+$/;
             return regex.test(name);
+        },
+        resetInputs() {
+            this.userName = "";
+            this.userEmail = "";
+            this.userMessage = "";
         },
     },
 };

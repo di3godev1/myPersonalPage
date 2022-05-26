@@ -70,4 +70,10 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
+
+    env: {
+        NUXT_APP_SERVICE: process.env.NUXT_APP_SERVICE,
+        NUXT_APP_TEMPLATE: process.env.NUXT_APP_TEMPLATE,
+        NUXT_APP_ID: process.env.NUXT_APP_ID,
+    },
 };

@@ -2,7 +2,7 @@
     <section id="say_hiSection" class="mt-20 bg-blackDiego">
         <!-- SVG SECTION -->
         <div
-            class="w-4/5 flex flex-col mx-auto max-w-7xl flex-wrap justify-center items-center relative lg:right-10"
+            class="w-full md:w-4/5 flex flex-col mx-auto max-w-7xl flex-wrap justify-center items-center relative lg:right-10"
         >
             <div
                 class="flex justify-end pb-2 md:mr-10 lg:mr-1 relative md:left-40 left-16"
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div
-                class="rounded-full w-64 h-64 border-l-8 border-r-2 border-t-4 border-b-4 border-pinkDiego md:w-96 md:h-96 relative -top-4 lg:left-12 lg:-top-6 md:-top-6 size-tablet"
+                class="rounded-full w-72 h-72 border-l-8 border-r-2 border-t-4 border-b-4 border-pinkDiego md:w-96 md:h-96 relative -top-4 lg:left-12 lg:-top-6 md:-top-6 size-tablet"
             >
                 <HomeCardForm />
             </div>

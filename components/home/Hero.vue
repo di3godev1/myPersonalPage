@@ -112,7 +112,7 @@
                 <!-- DESCRIPTION SECTION -->
                 <div class="mt-44 w-full">
                     <div
-                        class="px-5 relative -top-12 sm:flex sm:justify-end sm:items-center sm:right-80 top md:right-96 lg:-left-96 lg:pr-36"
+                        class="px-5 relative -top-12 sm:flex sm:justify-end sm:items-center sm:right-80 top md:right-80 lg:-left-96 lg:pr-36"
                     >
                         <p class="text-greyDiego">{{ startTheDescription }}</p>
                     </div>

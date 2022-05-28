@@ -38,6 +38,9 @@
                 >
             </div>
             <div class="mt-2 md:mt-5 md:flex-row">
+                <label for="text" class="text-whiteDiego text-2xl">
+                    text
+                </label>
                 <textarea
                     v-model="userMessage"
                     type="text"

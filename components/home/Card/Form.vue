@@ -4,10 +4,7 @@
     >
         <form class="flex flex-col relative top-7 left-2 md:top-14 w-4/5">
             <div class="flex flex-col md:flex-row">
-                <label
-                    for="name"
-                    class="text-whiteDiego text-sm sm:text-base md:text-3xl"
-                >
+                <label for="name" class="text-whiteDiego text-2xl">
                     name:
                 </label>
                 <input
@@ -25,10 +22,7 @@
                 >
             </div>
             <div class="md:mt-5 flex flex-col md:flex-row">
-                <label
-                    for="email"
-                    class="text-whiteDiego text-sm sm:text-base md:text-3xl"
-                >
+                <label for="email" class="text-whiteDiego text-2xl">
                     email:
                 </label>
                 <input
@@ -48,7 +42,7 @@
                     v-model="userMessage"
                     type="text"
                     placeholder="insert text"
-                    class="py-1 px-2 text-whiteDiego w-full md:h-28 bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary text-sm sm:text-base italic md:placeholder:text-base"
+                    class="py-1 px-2 text-whiteDiego w-full md:h-28 bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary text-sm sm:text-base italic md:placeholder:text-base h-28"
                 />
             </div>
             <div class="w-full mt-3">

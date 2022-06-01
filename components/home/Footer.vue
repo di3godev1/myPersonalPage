@@ -1,5 +1,5 @@
 <template>
-    <footer class="w-full h-12 mt-5 flex justify-center items-center">
+    <footer class="w-full h-12 flex justify-center items-center sm:mt-36 mt-5">
         <div class="w-4/5 flex justify-between items-center">
             <div class="flex flex-wrap items-center">
                 <div class="mr-2">

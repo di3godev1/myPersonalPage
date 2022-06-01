@@ -16,7 +16,7 @@
                     class="text-xs md:text-base italic py-1 px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:placeholder:text-base h-11"
                 />
                 <span
-                    class="text-whiteDiego italic text-xs"
+                    class="text-whiteDiego italic text-xs sm:hidden"
                     v-if="!checkName"
                     >{{ userNameError }}</span
                 >
@@ -33,7 +33,10 @@
                     required
                     class="text-xs italic py-1 px-2 md:ml-2 text-whiteDiego w-full bg-blackDiego border border-pinkDiego rounded-3xl placeholder:text-sm placeholder:text-greyDiego placeholder:font-secondary md:text-base md:placeholder:text-base h-11"
                 />
-                <span class="text-whiteDiego italic text-xs" v-if="!checkMail">
+                <span
+                    class="text-whiteDiego italic text-xs sm:hidden"
+                    v-if="!checkMail"
+                >
                     {{ userEmailError }}</span
                 >
             </div>

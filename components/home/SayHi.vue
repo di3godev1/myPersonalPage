@@ -24,14 +24,17 @@
         <div class="w-full">
             <HomeCardForm />
         </div>
+        <div>
+            <Media />
+        </div>
     </section>
 </template>
 
 <script>
-// import Media from "../home/Social/Media.vue";
+import Media from "../home/Social/Media.vue";
 export default {
     components: {
-        // Media,
+        Media,
     },
 };
 </script>

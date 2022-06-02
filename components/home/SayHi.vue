@@ -25,16 +25,19 @@
             <HomeCardForm />
         </div>
         <div>
-            <Media />
+            <Media class="lg:hidden" />
+            <media-desktop class="lg:flex hidden" />
         </div>
     </section>
 </template>
 
 <script>
 import Media from "../home/Social/Media.vue";
+import MediaDesktop from "../home/Social/MediaDesktop.vue";
 export default {
     components: {
         Media,
+        MediaDesktop,
     },
 };
 </script>

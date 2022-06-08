@@ -112,7 +112,7 @@
                 <!-- DESCRIPTION SECTION -->
                 <div class="mt-44 w-full">
                     <div
-                        class="px-5 relative -top-12 sm:flex sm:justify-end sm:items-center sm:right-80 top md:right-80 lg:-left-96 lg:pr-36"
+                        class="px-5 relative -top-12 sm:flex sm:justify-end sm:items-center sm:right-80 top md:right-80 lg:-left-96 lg:pr-64"
                     >
                         <p class="text-greyDiego">{{ startTheDescription }}</p>
                     </div>
@@ -120,7 +120,7 @@
                         class="w-full flex justify-center items-center relative -top-12 sm:flex sm:justify-end sm:items-center sm:right-4 top"
                     >
                         <p
-                            class="lg:text-2xl sm:text-base sm:w-1/2 px-2 text-whiteDiego text-center text-sm"
+                            class="lg:text-2xl sm:text-base sm:w-1/2 px-2 text-whiteDiego text-left text-sm font-secondary"
                         >
                             Soy Diego Reyes, frontend developer, un joven
                             estusiasmado por la tecnología y lo que esta puede

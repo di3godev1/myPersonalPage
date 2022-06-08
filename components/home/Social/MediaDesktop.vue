@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full mt-24 ml-8">
+    <div class="w-4/5 mt-24 ml-8">
         <div class="ml-5 w-5/6 flex justify-start flex-col">
             <a
                 v-for="(network, index) in networks"

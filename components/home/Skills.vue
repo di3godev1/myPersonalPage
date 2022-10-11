@@ -20,7 +20,7 @@
         <!-- DETAILS SKILLS SECTION   -->
         <div class="mt-16 w-full mx-auto flex justify-center relative">
             <!-- LETTERS BACKGROUND -->
-            <div class="w-full absolute top-6 md:top-1/3 left-0 z-10">
+            <div class="w-full absolute top-6 sm:top-24 lg:top-1/3 left-0 z-10">
                 <vue-tiny-slider v-bind="tinySliderOptions">
                     <div
                         v-for="(slide, index) in sliders"

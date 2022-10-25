@@ -60,7 +60,7 @@
                             'border-pinkDiego text-whiteDiego': !checkMail,
                             'text-greyDiego border-greyDiego': checkMail,
                         }"
-                        :disabled="checkMail"
+                        :disabled="!formIsValid"
                         @click.prevent="sendEmail"
                     >
                         .send()
@@ -100,6 +100,20 @@ export default {
             } else {
                 return true;
             }
+        },
+        // GETTING VALID FORM
+        formIsValid() {
+            return (
+                this.userName != "" &&
+                this.userEmail != "" &&
+                this.userMessage != ""
+            );
+        },
+        // VALIDATING FORM WITH CLASSES
+        isButtonActive() {
+            return this.formIsValid === true
+                ? "border-greyDiego"
+                : "border-pinkDiego";
         },
     },
     methods: {

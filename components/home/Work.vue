@@ -60,9 +60,15 @@ export default {
         // DateOfTheWorks: "<!-- 2022 -->",
         works: [
             {
-                name: "maverick",
+                name: "Maverick",
                 link: "https://www.somosmaverick.com/",
                 description: "Agencia de desarrollo de productos digitales",
+                date: "<!-- 2022 -->",
+            },
+            {
+                name: "Terranet",
+                link: "https://www.terranet.com.ec/",
+                description: "Empresa de servicios de telecomunicaciones",
                 date: "<!-- 2022 -->",
             },
         ],

@@ -57,7 +57,7 @@
                                 class="w-36 h-36 rounded-full relative lg:w-96 lg:h-96 sm:w-56 sm:h-56"
                             >
                                 <img
-                                    src="../../static/images/ImagesAboutMe/yo.png"
+                                    src="../../static/images/background.png"
                                     alt=""
                                     srcset=""
                                     class="object-cover rounded-full w-36 h-36 border-t-2 border-l-4 border-b-8 border-pinkDiego lg:w-96 lg:h-96 sm:w-56 sm:h-56"

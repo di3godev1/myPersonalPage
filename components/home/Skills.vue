@@ -65,7 +65,7 @@ export default {
             items: 3,
             swipeAngle: 45,
             autoplay: true,
-            autoplayTimeout: 1200,
+            autoplayTimeout: 1000,
             touch: false,
             center: true,
             autoWidth: true,
@@ -105,10 +105,31 @@ export default {
                 name: "-",
             },
             {
-                name: "tailwind",
+                name: "-",
             },
             {
-                name: "-",
+                name: "scss",
+            },
+            {
+                name: "-"
+            },
+            {
+                name: "typescript"
+            },
+            {
+                name: "-"
+            },
+            {
+                name: "express"
+            },
+            {
+                name: "-"
+            },
+            {
+                name: "docker"
+            },
+            {
+                name: "-"
             },
         ],
     }),

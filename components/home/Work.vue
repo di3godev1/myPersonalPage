@@ -60,16 +60,34 @@ export default {
         // DateOfTheWorks: "<!-- 2022 -->",
         works: [
             {
-                name: "Maverick",
-                link: "https://www.somosmaverick.com/",
-                description: "Agencia de desarrollo de productos digitales",
-                date: "<!-- 2022 -->",
-            },
-            {
                 name: "Terranet",
                 link: "https://www.terranet.com.ec/",
                 description: "Empresa de servicios de telecomunicaciones",
-                date: "<!-- 2022 -->",
+                date: "<!-- 2023 -->",
+            },
+            {
+                name: "Rendlt",
+                link: "https://rendlt.com/",
+                description: "E-commerce de relojes",
+                date: "<!-- 2023 -->",
+            },
+            {
+                name: "Contrucciones y acero",
+                link: "https://construccionesyacero.ec/",
+                description: "Empresa constructora",
+                date: "<!-- 2023 -->",
+            },
+            {
+                name: "Reyes e hijos",
+                link: "https://reyesehijos.ec/",
+                description: "Agencia de aduanas",
+                date: "<!-- 2023 -->",
+            },
+            {
+                name: "Videobox",
+                link: "https://radiant-narwhal-d48ded.netlify.app/",
+                description: "Empresa de gestión de videos deportivos",
+                date: "<!-- 2023 -->",
             },
         ],
     }),

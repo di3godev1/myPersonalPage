@@ -27,10 +27,6 @@ export default {
     data: () => ({
         icons: [
             {
-                name: "facebook",
-                url: "https://www.facebook.com/di3godev",
-            },
-            {
                 name: "instagram",
                 url: "https://www.instagram.com/yeyo.dev/",
             },
